@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libbase.a CMakeFiles/base.dir/card.cpp.obj CMakeFiles/base.dir/deck.cpp.obj CMakeFiles/base.dir/player.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libbase.a

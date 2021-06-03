@@ -1,0 +1,3 @@
+C:\cMake\bin\cmake.exe -E rm -f CMakeFiles\pok-simulator.dir/objects.a
+C:\Mingw_64\mingw64\bin\ar.exe cr CMakeFiles\pok-simulator.dir/objects.a @CMakeFiles\pok-simulator.dir\objects1.rsp
+C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\pok-simulator.dir/objects.a -Wl,--no-whole-archive -o pok-simulator.exe -Wl,--out-implib,libpok-simulator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pok-simulator.dir\linklibs.rsp
