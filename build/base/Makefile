@@ -153,6 +153,54 @@ card.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/card.cpp.s
 .PHONY : card.cpp.s
 
+deck.obj: deck.cpp.obj
+.PHONY : deck.obj
+
+# target to build an object file
+deck.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/deck.cpp.obj
+.PHONY : deck.cpp.obj
+
+deck.i: deck.cpp.i
+.PHONY : deck.i
+
+# target to preprocess a source file
+deck.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/deck.cpp.i
+.PHONY : deck.cpp.i
+
+deck.s: deck.cpp.s
+.PHONY : deck.s
+
+# target to generate assembly for a file
+deck.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/deck.cpp.s
+.PHONY : deck.cpp.s
+
+player.obj: player.cpp.obj
+.PHONY : player.obj
+
+# target to build an object file
+player.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/player.cpp.obj
+.PHONY : player.cpp.obj
+
+player.i: player.cpp.i
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/player.cpp.s
+.PHONY : player.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +213,12 @@ help:
 	@echo ... card.obj
 	@echo ... card.i
 	@echo ... card.s
+	@echo ... deck.obj
+	@echo ... deck.i
+	@echo ... deck.s
+	@echo ... player.obj
+	@echo ... player.i
+	@echo ... player.s
 .PHONY : help
 
 

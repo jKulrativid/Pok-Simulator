@@ -5,6 +5,16 @@
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.cpp"
 },
 {
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/base.dir/includes_CXX.rsp -g -o CMakeFiles\\base.dir\\deck.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\deck.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/base.dir/includes_CXX.rsp -g -o CMakeFiles\\base.dir\\player.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\player.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.cpp"
+},
+{
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/main",
   "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/pok-simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\pok-simulator.dir\\main.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\main\\main.cpp",
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/main.cpp"

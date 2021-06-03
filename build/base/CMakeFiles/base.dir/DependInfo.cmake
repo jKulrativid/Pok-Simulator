@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.cpp" "base/CMakeFiles/base.dir/card.cpp.obj" "gcc" "base/CMakeFiles/base.dir/card.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.cpp" "base/CMakeFiles/base.dir/deck.cpp.obj" "gcc" "base/CMakeFiles/base.dir/deck.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.cpp" "base/CMakeFiles/base.dir/player.cpp.obj" "gcc" "base/CMakeFiles/base.dir/player.cpp.obj.d"
   )
 
 # Targets to which this target links.

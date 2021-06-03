@@ -83,17 +83,51 @@ base/CMakeFiles/base.dir/card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/card.cpp.s"
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\base\card.cpp -o CMakeFiles\base.dir\card.cpp.s
 
+base/CMakeFiles/base.dir/deck.cpp.obj: base/CMakeFiles/base.dir/flags.make
+base/CMakeFiles/base.dir/deck.cpp.obj: base/CMakeFiles/base.dir/includes_CXX.rsp
+base/CMakeFiles/base.dir/deck.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.cpp
+base/CMakeFiles/base.dir/deck.cpp.obj: base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object base/CMakeFiles/base.dir/deck.cpp.obj"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/deck.cpp.obj -MF CMakeFiles\base.dir\deck.cpp.obj.d -o CMakeFiles\base.dir\deck.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\base\deck.cpp
+
+base/CMakeFiles/base.dir/deck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/deck.cpp.i"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\base\deck.cpp > CMakeFiles\base.dir\deck.cpp.i
+
+base/CMakeFiles/base.dir/deck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/deck.cpp.s"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\base\deck.cpp -o CMakeFiles\base.dir\deck.cpp.s
+
+base/CMakeFiles/base.dir/player.cpp.obj: base/CMakeFiles/base.dir/flags.make
+base/CMakeFiles/base.dir/player.cpp.obj: base/CMakeFiles/base.dir/includes_CXX.rsp
+base/CMakeFiles/base.dir/player.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.cpp
+base/CMakeFiles/base.dir/player.cpp.obj: base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object base/CMakeFiles/base.dir/player.cpp.obj"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/player.cpp.obj -MF CMakeFiles\base.dir\player.cpp.obj.d -o CMakeFiles\base.dir\player.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\base\player.cpp
+
+base/CMakeFiles/base.dir/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/player.cpp.i"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\base\player.cpp > CMakeFiles\base.dir\player.cpp.i
+
+base/CMakeFiles/base.dir/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/player.cpp.s"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\base\player.cpp -o CMakeFiles\base.dir\player.cpp.s
+
 # Object files for target base
 base_OBJECTS = \
-"CMakeFiles/base.dir/card.cpp.obj"
+"CMakeFiles/base.dir/card.cpp.obj" \
+"CMakeFiles/base.dir/deck.cpp.obj" \
+"CMakeFiles/base.dir/player.cpp.obj"
 
 # External object files for target base
 base_EXTERNAL_OBJECTS =
 
 base/libbase.a: base/CMakeFiles/base.dir/card.cpp.obj
+base/libbase.a: base/CMakeFiles/base.dir/deck.cpp.obj
+base/libbase.a: base/CMakeFiles/base.dir/player.cpp.obj
 base/libbase.a: base/CMakeFiles/base.dir/build.make
 base/libbase.a: base/CMakeFiles/base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbase.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libbase.a"
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && $(CMAKE_COMMAND) -P CMakeFiles\base.dir\cmake_clean_target.cmake
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\base.dir\link.txt --verbose=$(VERBOSE)
 
