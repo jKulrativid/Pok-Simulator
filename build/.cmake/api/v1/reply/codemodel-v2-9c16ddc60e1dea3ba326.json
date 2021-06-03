@@ -1,0 +1,98 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "base",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "base",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "main",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "main",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "pok-simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "base::@4506b02e7a4fef989908",
+					"jsonFile" : "target-base-Debug-afb3ab0dcda82b0dc384.json",
+					"name" : "base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-pok-simulator-Debug-7063482da0d0335c3a2c.json",
+					"name" : "pok-simulator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/ProjeXt/pok-simulator/build",
+		"source" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

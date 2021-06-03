@@ -1,2 +1,0 @@
-C:\Mingw_64\mingw64\bin\ar.exe qc libcalculator.a CMakeFiles/calculator.dir/src/calculator.cpp.obj
-C:\Mingw_64\mingw64\bin\ranlib.exe libcalculator.a
