@@ -7,8 +7,9 @@ class Card{
         char suit;
     public:
         Card(char r, char s);
-        char get_rank(void);
-        char get_suit(void);
+        ~Card();
+        char get_rank();
+        char get_suit();
 };
 
 #endif

@@ -5,6 +5,10 @@ Card::Card(char r, char s){
     
 }
 
+Card::~Card(){
+
+}
+
 char Card::get_rank(void){
     return rank;
 
