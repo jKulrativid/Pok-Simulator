@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/say-hello",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/say-hello.dir/includes_CXX.rsp -g -o CMakeFiles\\say-hello.dir\\src\\say-hello\\hello.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\src\\simulator\\say-hello\\src\\say-hello\\hello.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/src/simulator/say-hello/src/say-hello/hello.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/calculator",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/calculator.dir/includes_CXX.rsp -g -o CMakeFiles\\calculator.dir\\src\\calculator.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\src\\simulator\\calculator\\src\\calculator.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/src/simulator/calculator/src/calculator.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/hello-exe",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -o CMakeFiles\\test.dir\\main.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\src\\simulator\\hello-exe\\main.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/src/simulator/hello-exe/main.cpp"
+}
+]

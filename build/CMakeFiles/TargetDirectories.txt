@@ -1,0 +1,11 @@
+C:/Users/user/ProjeXt/pok-simulator/build/CMakeFiles/edit_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/CMakeFiles/rebuild_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/say-hello/CMakeFiles/rebuild_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/say-hello/CMakeFiles/say-hello.dir
+C:/Users/user/ProjeXt/pok-simulator/build/say-hello/CMakeFiles/edit_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/calculator/CMakeFiles/rebuild_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/calculator/CMakeFiles/calculator.dir
+C:/Users/user/ProjeXt/pok-simulator/build/calculator/CMakeFiles/edit_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/hello-exe/CMakeFiles/rebuild_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/hello-exe/CMakeFiles/test.dir
+C:/Users/user/ProjeXt/pok-simulator/build/hello-exe/CMakeFiles/edit_cache.dir
