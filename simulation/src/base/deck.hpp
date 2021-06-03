@@ -12,9 +12,9 @@ class Deck{
     public:
         Deck();
         ~Deck();
-        std::vector<Card> get_card_list();
         Card pick_card();
         void add_card_on_top(Card card);
+        std::vector<Card> get_card_list();
 
 };
 
