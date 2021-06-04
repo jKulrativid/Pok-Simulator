@@ -93,6 +93,8 @@ pok__simulator_EXTERNAL_OBJECTS =
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/main.cpp.obj
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/build.make
 main/pok-simulator.exe: base/libbase.a
+main/pok-simulator.exe: factory/libdeckfactory.a
+main/pok-simulator.exe: base/libbase.a
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/linklibs.rsp
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/objects1.rsp
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/link.txt

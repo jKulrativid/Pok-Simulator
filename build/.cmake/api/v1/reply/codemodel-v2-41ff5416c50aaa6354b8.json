@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -33,6 +34,20 @@
 					]
 				},
 				{
+					"build" : "factory",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "factory",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
 					"build" : "main",
 					"minimumCMakeVersion" : 
 					{
@@ -43,7 +58,7 @@
 					"source" : "main",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
@@ -55,13 +70,15 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "pok-simulator",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -76,8 +93,15 @@
 				},
 				{
 					"directoryIndex" : 2,
+					"id" : "deckfactory::@d46b2ac485394ab8ef0a",
+					"jsonFile" : "target-deckfactory-Debug-acd5daf69c104f45ec77.json",
+					"name" : "deckfactory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-7063482da0d0335c3a2c.json",
+					"jsonFile" : "target-pok-simulator-Debug-65c0732c963faff8c2ee.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				}

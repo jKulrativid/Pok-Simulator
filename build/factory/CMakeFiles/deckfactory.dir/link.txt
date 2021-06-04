@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libdeckfactory.a CMakeFiles/deckfactory.dir/deckfactory.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libdeckfactory.a

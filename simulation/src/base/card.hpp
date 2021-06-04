@@ -1,15 +1,17 @@
 #ifndef CARD_HPP
 #define CARD_HPP
 
+#include<iostream>
+
 class Card{
     private:
-        char rank;
-        char suit;
+        std::string rank;
+        std::string suit;
     public:
-        Card(char r, char s);
+        Card(std::string r, std::string s);
         ~Card();
-        char get_rank();
-        char get_suit();
+        std::string get_rank();
+        std::string get_suit();
 };
 
 #endif

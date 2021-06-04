@@ -63,16 +63,19 @@ CMAKE_BINARY_DIR = C:\Users\user\ProjeXt\pok-simulator\build
 
 # The main recursive "all" target.
 all: base/all
+all: factory/all
 all: main/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: base/preinstall
+preinstall: factory/preinstall
 preinstall: main/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: base/clean
+clean: factory/clean
 clean: main/clean
 .PHONY : clean
 
@@ -90,6 +93,21 @@ base/preinstall:
 # Recursive "clean" directory target.
 base/clean: base/CMakeFiles/base.dir/clean
 .PHONY : base/clean
+
+#=============================================================================
+# Directory level rules for directory factory
+
+# Recursive "all" directory target.
+factory/all: factory/CMakeFiles/deckfactory.dir/all
+.PHONY : factory/all
+
+# Recursive "preinstall" directory target.
+factory/preinstall:
+.PHONY : factory/preinstall
+
+# Recursive "clean" directory target.
+factory/clean: factory/CMakeFiles/deckfactory.dir/clean
+.PHONY : factory/clean
 
 #=============================================================================
 # Directory level rules for directory main
@@ -133,18 +151,45 @@ base/CMakeFiles/base.dir/clean:
 .PHONY : base/CMakeFiles/base.dir/clean
 
 #=============================================================================
+# Target rules for target factory/CMakeFiles/deckfactory.dir
+
+# All Build rule for target.
+factory/CMakeFiles/deckfactory.dir/all: base/CMakeFiles/base.dir/all
+	$(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/depend
+	$(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=5,6 "Built target deckfactory"
+.PHONY : factory/CMakeFiles/deckfactory.dir/all
+
+# Build rule for subdir invocation for target.
+factory/CMakeFiles/deckfactory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 factory/CMakeFiles/deckfactory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
+.PHONY : factory/CMakeFiles/deckfactory.dir/rule
+
+# Convenience name for target.
+deckfactory: factory/CMakeFiles/deckfactory.dir/rule
+.PHONY : deckfactory
+
+# clean rule for target.
+factory/CMakeFiles/deckfactory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/clean
+.PHONY : factory/CMakeFiles/deckfactory.dir/clean
+
+#=============================================================================
 # Target rules for target main/CMakeFiles/pok-simulator.dir
 
 # All Build rule for target.
 main/CMakeFiles/pok-simulator.dir/all: base/CMakeFiles/base.dir/all
+main/CMakeFiles/pok-simulator.dir/all: factory/CMakeFiles/deckfactory.dir/all
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=5,6 "Built target pok-simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=7,8 "Built target pok-simulator"
 .PHONY : main/CMakeFiles/pok-simulator.dir/all
 
 # Build rule for subdir invocation for target.
 main/CMakeFiles/pok-simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/pok-simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : main/CMakeFiles/pok-simulator.dir/rule
