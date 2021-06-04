@@ -14,7 +14,8 @@ Deck::~Deck(){
 }
 
 Card Deck::pick_card(){
-    Card c = card_list.at(size-1);
+    Card c = card_list.back();
+    card_list.pop_back();
     --size;
     return c;
     
