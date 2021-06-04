@@ -28,7 +28,7 @@ void Deck::add_card_on_top(Card card){
 }
 
 void swap_card(Card* a, Card* b){
-    Card* temp = a;
+    Card* temp = b;
     b = a;
     a = temp;
     
@@ -38,9 +38,10 @@ void Deck::shuffle(){
     // fisher yates algorithm
     std::default_random_engine rand;
     std::uniform_int_distribution<int> distribution(1, size);
-    for (int i=0; i<size; i++){
+    for (int i=size-1; i>0; --i){
         int random_number = distribution(rand);
-        swap_card(&card_list[i], &card_list[random_number]);
+        int swap_index = random_number % i;
+        swap_card(&card_list[i], &card_list[swap_index]);
     }
 
 }
