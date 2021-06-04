@@ -2,13 +2,13 @@
 #define DECKFACTORY_HPP
 
 #include <vector>
-#include <card.hpp>
+#include <deck.hpp>
 
 class DeckFactory{
-
     public:
         DeckFactory();
-        std::vector<Card> get_new_card_list();
+        ~DeckFactory();
+        Deck get_new_deck(int stack);
 
 };
 
