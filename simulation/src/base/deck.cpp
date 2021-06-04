@@ -4,8 +4,6 @@
 #include "deck.hpp"
 
 Deck::Deck(){
-    // TODO
-    // get card_list from factory method
 
 }
 
