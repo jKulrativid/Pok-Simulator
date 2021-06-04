@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles C:\Users\user\ProjeXt\pok-simulator\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles C:\Users\user\ProjeXt\pok-simulator\build\factory\\CMakeFiles\progress.marks
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 factory/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 factory/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,57 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 factory/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 factory/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named base
+# Convenience name for target.
+factory/CMakeFiles/deckfactory.dir/rule:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 factory/CMakeFiles/deckfactory.dir/rule
+.PHONY : factory/CMakeFiles/deckfactory.dir/rule
 
-# Build rule for target.
-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base
-.PHONY : base
-
-# fast build rule for target.
-base/fast:
-	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/build
-.PHONY : base/fast
-
-#=============================================================================
-# Target rules for targets named deckfactory
-
-# Build rule for target.
-deckfactory: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deckfactory
+# Convenience name for target.
+deckfactory: factory/CMakeFiles/deckfactory.dir/rule
 .PHONY : deckfactory
 
 # fast build rule for target.
 deckfactory/fast:
-	$(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/build
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/build
 .PHONY : deckfactory/fast
 
-#=============================================================================
-# Target rules for targets named pok-simulator
+deckfactory.obj: deckfactory.cpp.obj
+.PHONY : deckfactory.obj
 
-# Build rule for target.
-pok-simulator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pok-simulator
-.PHONY : pok-simulator
+# target to build an object file
+deckfactory.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/deckfactory.cpp.obj
+.PHONY : deckfactory.cpp.obj
 
-# fast build rule for target.
-pok-simulator/fast:
-	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
-.PHONY : pok-simulator/fast
+deckfactory.i: deckfactory.cpp.i
+.PHONY : deckfactory.i
+
+# target to preprocess a source file
+deckfactory.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/deckfactory.cpp.i
+.PHONY : deckfactory.cpp.i
+
+deckfactory.s: deckfactory.cpp.s
+.PHONY : deckfactory.s
+
+# target to generate assembly for a file
+deckfactory.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/deckfactory.cpp.s
+.PHONY : deckfactory.cpp.s
 
 # Help Target
 help:
@@ -162,9 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... base
 	@echo ... deckfactory
-	@echo ... pok-simulator
+	@echo ... deckfactory.obj
+	@echo ... deckfactory.i
+	@echo ... deckfactory.s
 .PHONY : help
 
 
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

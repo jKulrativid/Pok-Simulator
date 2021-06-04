@@ -15,6 +15,11 @@
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.cpp"
 },
 {
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/factory",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/deckfactory.dir/includes_CXX.rsp -g -o CMakeFiles\\deckfactory.dir\\deckfactory.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\factory\\deckfactory.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.cpp"
+},
+{
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/main",
   "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/pok-simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\pok-simulator.dir\\main.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\main\\main.cpp",
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/main.cpp"
