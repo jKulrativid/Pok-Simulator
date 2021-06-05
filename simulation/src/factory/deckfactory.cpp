@@ -19,7 +19,7 @@ void add_one_stack(Deck* deck){
     std::string suits[] = {"S", "H", "D", "C"};
     for (auto r: ranks){
         for (auto s: suits){
-            Card card(r, s);
+            Card *card = new Card(r, s);
             deck->add_card_on_top(card);
 
         }
