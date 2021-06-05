@@ -47,10 +47,18 @@ void test::shuffle_efficiency_test(){
         }
         
     }
-    std::cout << "Shuffle Test Result:\n";
+    std::cout << "Shuffle " << round << " Round\n" << "Test Result:\n";
     for (int i=0; i<6; i++){
         std::cout << sequences[i] << ": " << counts[i] << "\n";
 
     }
+
+}
+
+void test::cut_test(){
+
+}
+
+void test::riffle_test(){
 
 }

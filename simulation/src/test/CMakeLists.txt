@@ -1,7 +1,7 @@
 add_library(
     test
     test.hpp
-    shuffle_eff_test.cpp
+    shuffle_test.cpp
     basetest.cpp
 )
 
