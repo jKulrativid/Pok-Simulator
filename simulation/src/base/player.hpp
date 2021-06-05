@@ -17,11 +17,26 @@ class Player{
         Player(std::string new_name);
         ~Player();
         void obtain_card(Card card);
+        void reset_hand();
 
         // GETTER && SETTER //
         std::string get_name();
         std::vector<Card> get_hand();
         void set_name(std::string new_name);
+        void set_hand(std::vector<Card> new_hand);
+
+};
+
+class Dealer: public Player{
+    private:
+        Deck deck;
+    
+    public:
+        Dealer(std::string new_name);
+        
+        // GETTER && SETTER //
+        Deck get_deck();
+        void set_deck(Deck new_deck);
 
 };
 

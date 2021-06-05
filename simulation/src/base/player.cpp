@@ -19,6 +19,12 @@ void Player::obtain_card(Card card){
 
 }
 
+void Player::reset_hand(){
+    hand = {};
+
+}
+
+// GETTER && SETTER //
 std::string Player::get_name(){
     return name;
 
@@ -31,5 +37,10 @@ std::vector<Card> Player::get_hand(){
 
 void Player::set_name(std::string new_name){
     name = new_name;
+
+}
+
+void Player::set_hand(std::vector<Card> new_hand){
+    hand = new_hand;
 
 }
