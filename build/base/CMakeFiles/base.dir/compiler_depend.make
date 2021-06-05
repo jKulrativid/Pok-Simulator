@@ -278,6 +278,10 @@ base/CMakeFiles/base.dir/deck.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simul
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp
 
@@ -585,5 +589,13 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h:
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
+
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h:
+
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp:

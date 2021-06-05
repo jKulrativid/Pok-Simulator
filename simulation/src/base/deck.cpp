@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <random>
+#include <ctime>
 
 #include "deck.hpp"
 
@@ -32,11 +33,9 @@ void Deck::add_card_on_top(Card card){
 
 void Deck::shuffle(){
     // fisher yates algorithm
-    std::default_random_engine rand;
-    std::uniform_int_distribution<int> distribution(1, size);
+    std::srand(std::time(NULL));
     for (int i=size-1; i>0; --i){
-        int random_number = distribution(rand);
-        int swap_index = random_number % i;
+        int swap_index = std::rand() % i;
         Card temp_card = card_list[i];
         card_list[i] = card_list[swap_index];
         card_list[swap_index] = temp_card;
