@@ -167,6 +167,19 @@ basetest/fast:
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/build
 .PHONY : basetest/fast
 
+#=============================================================================
+# Target rules for targets named shuffle-test-efficiency
+
+# Build rule for target.
+shuffle-test-efficiency: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shuffle-test-efficiency
+.PHONY : shuffle-test-efficiency
+
+# fast build rule for target.
+shuffle-test-efficiency/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/build
+.PHONY : shuffle-test-efficiency/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -179,6 +192,7 @@ help:
 	@echo ... basetest
 	@echo ... deckfactory
 	@echo ... pok-simulator
+	@echo ... shuffle-test-efficiency
 .PHONY : help
 
 

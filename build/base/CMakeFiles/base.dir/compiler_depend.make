@@ -419,7 +419,8 @@ base/CMakeFiles/base.dir/player.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/sim
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp
 
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/errno.h:

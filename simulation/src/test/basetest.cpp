@@ -6,10 +6,11 @@
 #include <deckfactory.hpp>
 
 int main(){
-    Player player("Test Player 1");
-    Card test_card("J", "D");
-    std::cout << player.get_name() << "\n";
-    player.obtain_card(test_card);
-    std::cout << player.get_hand()[0].get_suit() << "\n";
+    
+    DeckFactory df;
+    Deck test_deck = df.get_new_deck(1);
+    test_deck.formal_shuffle();
+    Card c = test_deck.pick_card();
+    std::cout << c.get_rank() << c.get_suit() << std::endl;
 
 }

@@ -127,17 +127,7 @@ main/CMakeFiles/pok-simulator.dir/main.cpp.obj: C:/Users/user/ProjeXt/pok-simula
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc
 
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
@@ -364,8 +354,6 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h:
 
-C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp:
-
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc:
@@ -395,19 +383,3 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
-
-C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp:
-
-C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp:
-
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
-
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
-
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
-
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
-
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
-
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:

@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\user\ProjeXt\pok-simulator\build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	C:\cMake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -83,6 +73,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	C:\cMake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,20 @@ basetest/fast:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/build
 .PHONY : basetest/fast
 
+# Convenience name for target.
+test/CMakeFiles/shuffle-test-efficiency.dir/rule:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/shuffle-test-efficiency.dir/rule
+.PHONY : test/CMakeFiles/shuffle-test-efficiency.dir/rule
+
+# Convenience name for target.
+shuffle-test-efficiency: test/CMakeFiles/shuffle-test-efficiency.dir/rule
+.PHONY : shuffle-test-efficiency
+
+# fast build rule for target.
+shuffle-test-efficiency/fast:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/build
+.PHONY : shuffle-test-efficiency/fast
+
 basetest.obj: basetest.cpp.obj
 .PHONY : basetest.obj
 
@@ -153,6 +167,30 @@ basetest.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/basetest.cpp.s
 .PHONY : basetest.cpp.s
 
+shuffle_eff_test.obj: shuffle_eff_test.cpp.obj
+.PHONY : shuffle_eff_test.obj
+
+# target to build an object file
+shuffle_eff_test.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/shuffle_eff_test.cpp.obj
+.PHONY : shuffle_eff_test.cpp.obj
+
+shuffle_eff_test.i: shuffle_eff_test.cpp.i
+.PHONY : shuffle_eff_test.i
+
+# target to preprocess a source file
+shuffle_eff_test.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/shuffle_eff_test.cpp.i
+.PHONY : shuffle_eff_test.cpp.i
+
+shuffle_eff_test.s: shuffle_eff_test.cpp.s
+.PHONY : shuffle_eff_test.s
+
+# target to generate assembly for a file
+shuffle_eff_test.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/shuffle_eff_test.cpp.s
+.PHONY : shuffle_eff_test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -162,9 +200,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... basetest
+	@echo ... shuffle-test-efficiency
 	@echo ... basetest.obj
 	@echo ... basetest.i
 	@echo ... basetest.s
+	@echo ... shuffle_eff_test.obj
+	@echo ... shuffle_eff_test.i
+	@echo ... shuffle_eff_test.s
 .PHONY : help
 
 

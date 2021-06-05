@@ -132,6 +132,7 @@ main/clean: main/CMakeFiles/pok-simulator.dir/clean
 
 # Recursive "all" directory target.
 test/all: test/CMakeFiles/basetest.dir/all
+test/all: test/CMakeFiles/shuffle-test-efficiency.dir/all
 .PHONY : test/all
 
 # Recursive "preinstall" directory target.
@@ -140,6 +141,7 @@ test/preinstall:
 
 # Recursive "clean" directory target.
 test/clean: test/CMakeFiles/basetest.dir/clean
+test/clean: test/CMakeFiles/shuffle-test-efficiency.dir/clean
 .PHONY : test/clean
 
 #=============================================================================
@@ -247,6 +249,33 @@ basetest: test/CMakeFiles/basetest.dir/rule
 test/CMakeFiles/basetest.dir/clean:
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/clean
 .PHONY : test/CMakeFiles/basetest.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/shuffle-test-efficiency.dir
+
+# All Build rule for target.
+test/CMakeFiles/shuffle-test-efficiency.dir/all: base/CMakeFiles/base.dir/all
+test/CMakeFiles/shuffle-test-efficiency.dir/all: factory/CMakeFiles/deckfactory.dir/all
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/depend
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=11,12 "Built target shuffle-test-efficiency"
+.PHONY : test/CMakeFiles/shuffle-test-efficiency.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/shuffle-test-efficiency.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/shuffle-test-efficiency.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
+.PHONY : test/CMakeFiles/shuffle-test-efficiency.dir/rule
+
+# Convenience name for target.
+shuffle-test-efficiency: test/CMakeFiles/shuffle-test-efficiency.dir/rule
+.PHONY : shuffle-test-efficiency
+
+# clean rule for target.
+test/CMakeFiles/shuffle-test-efficiency.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/clean
+.PHONY : test/CMakeFiles/shuffle-test-efficiency.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

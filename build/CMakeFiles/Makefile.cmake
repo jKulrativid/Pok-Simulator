@@ -60,4 +60,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "factory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
   "main/CMakeFiles/pok-simulator.dir/DependInfo.cmake"
   "test/CMakeFiles/basetest.dir/DependInfo.cmake"
+  "test/CMakeFiles/shuffle-test-efficiency.dir/DependInfo.cmake"
   )
