@@ -9,3 +9,6 @@ C:/Users/user/ProjeXt/pok-simulator/build/factory/CMakeFiles/rebuild_cache.dir
 C:/Users/user/ProjeXt/pok-simulator/build/main/CMakeFiles/pok-simulator.dir
 C:/Users/user/ProjeXt/pok-simulator/build/main/CMakeFiles/edit_cache.dir
 C:/Users/user/ProjeXt/pok-simulator/build/main/CMakeFiles/rebuild_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/test/CMakeFiles/basetest.dir
+C:/Users/user/ProjeXt/pok-simulator/build/test/CMakeFiles/edit_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/test/CMakeFiles/rebuild_cache.dir

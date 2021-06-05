@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles C:\Users\user\ProjeXt\pok-simulator\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles C:\Users\user\ProjeXt\pok-simulator\build\test\\CMakeFiles\progress.marks
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,70 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named base
+# Convenience name for target.
+test/CMakeFiles/basetest.dir/rule:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/basetest.dir/rule
+.PHONY : test/CMakeFiles/basetest.dir/rule
 
-# Build rule for target.
-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base
-.PHONY : base
-
-# fast build rule for target.
-base/fast:
-	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/build
-.PHONY : base/fast
-
-#=============================================================================
-# Target rules for targets named deckfactory
-
-# Build rule for target.
-deckfactory: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deckfactory
-.PHONY : deckfactory
-
-# fast build rule for target.
-deckfactory/fast:
-	$(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/build
-.PHONY : deckfactory/fast
-
-#=============================================================================
-# Target rules for targets named pok-simulator
-
-# Build rule for target.
-pok-simulator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pok-simulator
-.PHONY : pok-simulator
-
-# fast build rule for target.
-pok-simulator/fast:
-	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
-.PHONY : pok-simulator/fast
-
-#=============================================================================
-# Target rules for targets named basetest
-
-# Build rule for target.
-basetest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 basetest
+# Convenience name for target.
+basetest: test/CMakeFiles/basetest.dir/rule
 .PHONY : basetest
 
 # fast build rule for target.
 basetest/fast:
-	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/build
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/build
 .PHONY : basetest/fast
+
+basetest.obj: basetest.cpp.obj
+.PHONY : basetest.obj
+
+# target to build an object file
+basetest.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/basetest.cpp.obj
+.PHONY : basetest.cpp.obj
+
+basetest.i: basetest.cpp.i
+.PHONY : basetest.i
+
+# target to preprocess a source file
+basetest.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/basetest.cpp.i
+.PHONY : basetest.cpp.i
+
+basetest.s: basetest.cpp.s
+.PHONY : basetest.s
+
+# target to generate assembly for a file
+basetest.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/basetest.cpp.s
+.PHONY : basetest.cpp.s
 
 # Help Target
 help:
@@ -175,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... base
 	@echo ... basetest
-	@echo ... deckfactory
-	@echo ... pok-simulator
+	@echo ... basetest.obj
+	@echo ... basetest.i
+	@echo ... basetest.s
 .PHONY : help
 
 
@@ -190,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
