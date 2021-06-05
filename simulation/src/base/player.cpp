@@ -14,6 +14,11 @@ Player::~Player(){
 
 }
 
+void Player::obtain_card(Card card){
+    hand.push_back(card);
+
+}
+
 std::string Player::get_name(){
     return name;
 

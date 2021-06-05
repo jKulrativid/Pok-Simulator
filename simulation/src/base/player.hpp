@@ -15,6 +15,7 @@ class Player{
         Player();
         Player(std::string new_name);
         ~Player();
+        void obtain_card(Card card);
 
         // GETTER && SETTER //
         std::string get_name();
