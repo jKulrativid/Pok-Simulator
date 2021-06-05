@@ -32,7 +32,9 @@ class Dealer: public Player{
         Deck deck;
     
     public:
+        Dealer();
         Dealer(std::string new_name);
+        void give_card_to_player(Player other_player);
         
         // GETTER && SETTER //
         Deck get_deck();

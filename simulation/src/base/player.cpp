@@ -8,6 +8,8 @@ Player::Player(){
 
 Player::Player(std::string new_name){
     name = new_name;
+    hand = {};
+
 }
 
 Player::~Player(){
@@ -20,7 +22,7 @@ void Player::obtain_card(Card card){
 }
 
 void Player::reset_hand(){
-    hand = {};
+    hand.clear();
 
 }
 
