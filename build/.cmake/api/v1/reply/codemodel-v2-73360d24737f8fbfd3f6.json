@@ -45,21 +45,7 @@
 					"source" : "factory",
 					"targetIndexes" : 
 					[
-						2
-					]
-				},
-				{
-					"build" : "main",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.20.2"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "main",
-					"targetIndexes" : 
-					[
-						3
+						1
 					]
 				},
 				{
@@ -73,7 +59,21 @@
 					"source" : "test",
 					"targetIndexes" : 
 					[
-						1,
+						3
+					]
+				},
+				{
+					"build" : "main",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "main",
+					"targetIndexes" : 
+					[
+						2,
 						4
 					]
 				}
@@ -111,13 +111,6 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 4,
-					"id" : "basetest::@36f028580bb02cc8272a",
-					"jsonFile" : "target-basetest-Debug-9abc08e1a266d6d56026.json",
-					"name" : "basetest",
-					"projectIndex" : 0
-				},
-				{
 					"directoryIndex" : 2,
 					"id" : "deckfactory::@d46b2ac485394ab8ef0a",
 					"jsonFile" : "target-deckfactory-Debug-acd5daf69c104f45ec77.json",
@@ -125,17 +118,24 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 4,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-65c0732c963faff8c2ee.json",
+					"jsonFile" : "target-pok-simulator-Debug-cf5b8d4f51c25864d874.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 3,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-Debug-3ac38b5dead596ebcc3b.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 4,
-					"id" : "shuffle-test-efficiency::@36f028580bb02cc8272a",
-					"jsonFile" : "target-shuffle-test-efficiency-Debug-4dd777129ab411a770ac.json",
-					"name" : "shuffle-test-efficiency",
+					"id" : "testmain::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-testmain-Debug-e38ba706d6d9988230fa.json",
+					"name" : "testmain",
 					"projectIndex" : 0
 				}
 			]

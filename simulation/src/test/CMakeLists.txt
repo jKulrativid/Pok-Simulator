@@ -1,9 +1,10 @@
-add_executable(basetest basetest.cpp)
+add_library(
+    test
+    test.hpp
+    shuffle_eff_test.cpp
+    basetest.cpp
+)
 
-target_link_libraries(basetest PRIVATE base)
-target_link_libraries(basetest PRIVATE deckfactory)
-
-add_executable(shuffle-test-efficiency shuffle_eff_test.cpp)
-
-target_link_libraries(shuffle-test-efficiency base)
-target_link_libraries(shuffle-test-efficiency deckfactory)
+target_link_libraries(test PRIVATE base)
+target_link_libraries(test PRIVATE deckfactory)
+target_include_directories(test PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")

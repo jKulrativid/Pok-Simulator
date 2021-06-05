@@ -5,7 +5,9 @@
 #include <deckfactory.hpp>
 #include <ctime>
 
-int main(){
+#include "test.hpp"
+
+void test::shuffle_efficiency_test(){
     /* 
     This is bias tester.
     We'll test with a set of cards {1, 2, 3}
@@ -21,7 +23,6 @@ int main(){
     
     Seems OK
     */ 
-    std::srand(std::time(NULL));
     long round = 10000000;
     std::string sequences[] = {"123", "132", "213", "231", "312", "321"};
     int counts[6] = {0};
@@ -46,6 +47,7 @@ int main(){
         }
         
     }
+    std::cout << "Shuffle Test Result:\n";
     for (int i=0; i<6; i++){
         std::cout << sequences[i] << ": " << counts[i] << "\n";
 

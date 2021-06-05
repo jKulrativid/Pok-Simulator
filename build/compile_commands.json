@@ -20,18 +20,23 @@
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.cpp"
 },
 {
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/test",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -o CMakeFiles\\test.dir\\shuffle_eff_test.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\test\\shuffle_eff_test.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_eff_test.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/test",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -o CMakeFiles\\test.dir\\basetest.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\test\\basetest.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/basetest.cpp"
+},
+{
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/main",
   "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/pok-simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\pok-simulator.dir\\main.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\main\\main.cpp",
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/main.cpp"
 },
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/test",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/basetest.dir/includes_CXX.rsp -g -o CMakeFiles\\basetest.dir\\basetest.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\test\\basetest.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/basetest.cpp"
-},
-{
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/test",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/shuffle-test-efficiency.dir/includes_CXX.rsp -g -o CMakeFiles\\shuffle-test-efficiency.dir\\shuffle_eff_test.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\test\\shuffle_eff_test.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_eff_test.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/main",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/testmain.dir/includes_CXX.rsp -g -o CMakeFiles\\testmain.dir\\testmain.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\main\\testmain.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/testmain.cpp"
 }
 ]

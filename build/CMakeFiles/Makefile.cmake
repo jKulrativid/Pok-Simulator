@@ -50,15 +50,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/CMakeFiles/CMakeDirectoryInformation.cmake"
   "factory/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "main/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "base/CMakeFiles/base.dir/DependInfo.cmake"
   "factory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
+  "test/CMakeFiles/test.dir/DependInfo.cmake"
   "main/CMakeFiles/pok-simulator.dir/DependInfo.cmake"
-  "test/CMakeFiles/basetest.dir/DependInfo.cmake"
-  "test/CMakeFiles/shuffle-test-efficiency.dir/DependInfo.cmake"
+  "main/CMakeFiles/testmain.dir/DependInfo.cmake"
   )

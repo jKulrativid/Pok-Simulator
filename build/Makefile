@@ -142,6 +142,19 @@ deckfactory/fast:
 .PHONY : deckfactory/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named pok-simulator
 
 # Build rule for target.
@@ -155,30 +168,17 @@ pok-simulator/fast:
 .PHONY : pok-simulator/fast
 
 #=============================================================================
-# Target rules for targets named basetest
+# Target rules for targets named testmain
 
 # Build rule for target.
-basetest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 basetest
-.PHONY : basetest
+testmain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testmain
+.PHONY : testmain
 
 # fast build rule for target.
-basetest/fast:
-	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/build
-.PHONY : basetest/fast
-
-#=============================================================================
-# Target rules for targets named shuffle-test-efficiency
-
-# Build rule for target.
-shuffle-test-efficiency: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shuffle-test-efficiency
-.PHONY : shuffle-test-efficiency
-
-# fast build rule for target.
-shuffle-test-efficiency/fast:
-	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/build
-.PHONY : shuffle-test-efficiency/fast
+testmain/fast:
+	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\testmain.dir\build.make main/CMakeFiles/testmain.dir/build
+.PHONY : testmain/fast
 
 # Help Target
 help:
@@ -189,10 +189,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... base
-	@echo ... basetest
 	@echo ... deckfactory
 	@echo ... pok-simulator
-	@echo ... shuffle-test-efficiency
+	@echo ... test
+	@echo ... testmain
 .PHONY : help
 
 

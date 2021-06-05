@@ -116,39 +116,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/basetest.dir/rule:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/basetest.dir/rule
-.PHONY : test/CMakeFiles/basetest.dir/rule
+test/CMakeFiles/test.dir/rule:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/test.dir/rule
+.PHONY : test/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-basetest: test/CMakeFiles/basetest.dir/rule
-.PHONY : basetest
+test: test/CMakeFiles/test.dir/rule
+.PHONY : test
 
 # fast build rule for target.
-basetest/fast:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/build
-.PHONY : basetest/fast
-
-# Convenience name for target.
-test/CMakeFiles/shuffle-test-efficiency.dir/rule:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/shuffle-test-efficiency.dir/rule
-.PHONY : test/CMakeFiles/shuffle-test-efficiency.dir/rule
-
-# Convenience name for target.
-shuffle-test-efficiency: test/CMakeFiles/shuffle-test-efficiency.dir/rule
-.PHONY : shuffle-test-efficiency
-
-# fast build rule for target.
-shuffle-test-efficiency/fast:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/build
-.PHONY : shuffle-test-efficiency/fast
+test/fast:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 basetest.obj: basetest.cpp.obj
 .PHONY : basetest.obj
 
 # target to build an object file
 basetest.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/basetest.cpp.obj
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/basetest.cpp.obj
 .PHONY : basetest.cpp.obj
 
 basetest.i: basetest.cpp.i
@@ -156,7 +142,7 @@ basetest.i: basetest.cpp.i
 
 # target to preprocess a source file
 basetest.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/basetest.cpp.i
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/basetest.cpp.i
 .PHONY : basetest.cpp.i
 
 basetest.s: basetest.cpp.s
@@ -164,7 +150,7 @@ basetest.s: basetest.cpp.s
 
 # target to generate assembly for a file
 basetest.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\basetest.dir\build.make test/CMakeFiles/basetest.dir/basetest.cpp.s
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/basetest.cpp.s
 .PHONY : basetest.cpp.s
 
 shuffle_eff_test.obj: shuffle_eff_test.cpp.obj
@@ -172,7 +158,7 @@ shuffle_eff_test.obj: shuffle_eff_test.cpp.obj
 
 # target to build an object file
 shuffle_eff_test.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/shuffle_eff_test.cpp.obj
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_eff_test.cpp.obj
 .PHONY : shuffle_eff_test.cpp.obj
 
 shuffle_eff_test.i: shuffle_eff_test.cpp.i
@@ -180,7 +166,7 @@ shuffle_eff_test.i: shuffle_eff_test.cpp.i
 
 # target to preprocess a source file
 shuffle_eff_test.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/shuffle_eff_test.cpp.i
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_eff_test.cpp.i
 .PHONY : shuffle_eff_test.cpp.i
 
 shuffle_eff_test.s: shuffle_eff_test.cpp.s
@@ -188,7 +174,7 @@ shuffle_eff_test.s: shuffle_eff_test.cpp.s
 
 # target to generate assembly for a file
 shuffle_eff_test.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\shuffle-test-efficiency.dir\build.make test/CMakeFiles/shuffle-test-efficiency.dir/shuffle_eff_test.cpp.s
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_eff_test.cpp.s
 .PHONY : shuffle_eff_test.cpp.s
 
 # Help Target
@@ -199,8 +185,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... basetest
-	@echo ... shuffle-test-efficiency
+	@echo ... test
 	@echo ... basetest.obj
 	@echo ... basetest.i
 	@echo ... basetest.s

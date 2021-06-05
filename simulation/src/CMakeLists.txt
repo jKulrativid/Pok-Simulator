@@ -3,5 +3,5 @@ project(pok-simulator)
 
 add_subdirectory(base)
 add_subdirectory(factory)
-add_subdirectory(main)
 add_subdirectory(test)
+add_subdirectory(main)
