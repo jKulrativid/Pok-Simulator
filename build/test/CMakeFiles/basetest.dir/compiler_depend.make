@@ -137,7 +137,8 @@ test/CMakeFiles/basetest.dir/basetest.cpp.obj: C:/Users/user/ProjeXt/pok-simulat
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.hpp
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp
 
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/basetest.cpp:
@@ -363,6 +364,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h:
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc:
 

@@ -139,4 +139,5 @@ test/CMakeFiles/basetest.dir/basetest.cpp.obj
  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h
  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.hpp
+ C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp
 
