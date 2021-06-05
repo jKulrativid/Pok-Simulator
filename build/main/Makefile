@@ -129,6 +129,20 @@ pok-simulator/fast:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
 .PHONY : pok-simulator/fast
 
+# Convenience name for target.
+main/CMakeFiles/testmain.dir/rule:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/testmain.dir/rule
+.PHONY : main/CMakeFiles/testmain.dir/rule
+
+# Convenience name for target.
+testmain: main/CMakeFiles/testmain.dir/rule
+.PHONY : testmain
+
+# fast build rule for target.
+testmain/fast:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\testmain.dir\build.make main/CMakeFiles/testmain.dir/build
+.PHONY : testmain/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -153,6 +167,30 @@ main.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+testmain.obj: testmain.cpp.obj
+.PHONY : testmain.obj
+
+# target to build an object file
+testmain.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\testmain.dir\build.make main/CMakeFiles/testmain.dir/testmain.cpp.obj
+.PHONY : testmain.cpp.obj
+
+testmain.i: testmain.cpp.i
+.PHONY : testmain.i
+
+# target to preprocess a source file
+testmain.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\testmain.dir\build.make main/CMakeFiles/testmain.dir/testmain.cpp.i
+.PHONY : testmain.cpp.i
+
+testmain.s: testmain.cpp.s
+.PHONY : testmain.s
+
+# target to generate assembly for a file
+testmain.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\testmain.dir\build.make main/CMakeFiles/testmain.dir/testmain.cpp.s
+.PHONY : testmain.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -162,9 +200,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... pok-simulator
+	@echo ... testmain
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... testmain.obj
+	@echo ... testmain.i
+	@echo ... testmain.s
 .PHONY : help
 
 

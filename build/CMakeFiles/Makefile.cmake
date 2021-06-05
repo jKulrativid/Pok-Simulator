@@ -13,7 +13,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/CMakeLists.txt"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCInformation.cmake"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
@@ -47,11 +49,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "factory/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "base/CMakeFiles/base.dir/DependInfo.cmake"
+  "factory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
+  "test/CMakeFiles/test.dir/DependInfo.cmake"
   "main/CMakeFiles/pok-simulator.dir/DependInfo.cmake"
+  "main/CMakeFiles/testmain.dir/DependInfo.cmake"
   )

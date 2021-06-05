@@ -9,7 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -33,6 +35,34 @@
 					]
 				},
 				{
+					"build" : "factory",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "factory",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
 					"build" : "main",
 					"minimumCMakeVersion" : 
 					{
@@ -43,7 +73,8 @@
 					"source" : "main",
 					"targetIndexes" : 
 					[
-						1
+						2,
+						4
 					]
 				}
 			],
@@ -55,13 +86,18 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"name" : "pok-simulator",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -76,9 +112,30 @@
 				},
 				{
 					"directoryIndex" : 2,
+					"id" : "deckfactory::@d46b2ac485394ab8ef0a",
+					"jsonFile" : "target-deckfactory-Debug-acd5daf69c104f45ec77.json",
+					"name" : "deckfactory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-7063482da0d0335c3a2c.json",
+					"jsonFile" : "target-pok-simulator-Debug-cf5b8d4f51c25864d874.json",
 					"name" : "pok-simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-Debug-3ac38b5dead596ebcc3b.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testmain::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-testmain-Debug-e38ba706d6d9988230fa.json",
+					"name" : "testmain",
 					"projectIndex" : 0
 				}
 			]

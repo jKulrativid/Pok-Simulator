@@ -129,6 +129,32 @@ base/fast:
 .PHONY : base/fast
 
 #=============================================================================
+# Target rules for targets named deckfactory
+
+# Build rule for target.
+deckfactory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deckfactory
+.PHONY : deckfactory
+
+# fast build rule for target.
+deckfactory/fast:
+	$(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/build
+.PHONY : deckfactory/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named pok-simulator
 
 # Build rule for target.
@@ -141,6 +167,19 @@ pok-simulator/fast:
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
 .PHONY : pok-simulator/fast
 
+#=============================================================================
+# Target rules for targets named testmain
+
+# Build rule for target.
+testmain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testmain
+.PHONY : testmain
+
+# fast build rule for target.
+testmain/fast:
+	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\testmain.dir\build.make main/CMakeFiles/testmain.dir/build
+.PHONY : testmain/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -150,7 +189,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... base
+	@echo ... deckfactory
 	@echo ... pok-simulator
+	@echo ... test
+	@echo ... testmain
 .PHONY : help
 
 

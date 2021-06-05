@@ -1,0 +1,3 @@
+C:\cMake\bin\cmake.exe -E rm -f CMakeFiles\testmain.dir/objects.a
+C:\Mingw_64\mingw64\bin\ar.exe cr CMakeFiles\testmain.dir/objects.a @CMakeFiles\testmain.dir\objects1.rsp
+C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\testmain.dir/objects.a -Wl,--no-whole-archive -o testmain.exe -Wl,--out-implib,libtestmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testmain.dir\linklibs.rsp

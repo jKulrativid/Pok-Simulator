@@ -1,0 +1,3 @@
+C:\cMake\bin\cmake.exe -E rm -f CMakeFiles\shuffle-test-efficiency.dir/objects.a
+C:\Mingw_64\mingw64\bin\ar.exe cr CMakeFiles\shuffle-test-efficiency.dir/objects.a @CMakeFiles\shuffle-test-efficiency.dir\objects1.rsp
+C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\shuffle-test-efficiency.dir/objects.a -Wl,--no-whole-archive -o shuffle-test-efficiency.exe -Wl,--out-implib,libshuffle-test-efficiency.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\shuffle-test-efficiency.dir\linklibs.rsp

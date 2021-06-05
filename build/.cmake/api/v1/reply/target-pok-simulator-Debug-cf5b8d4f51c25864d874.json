@@ -28,13 +28,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 2,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 3,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -53,6 +59,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory"
 				}
 			],
 			"language" : "CXX",
@@ -67,6 +77,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "base::@4506b02e7a4fef989908"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "deckfactory::@d46b2ac485394ab8ef0a"
 		}
 	],
 	"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
@@ -81,6 +95,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\base\\libbase.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\factory\\libdeckfactory.a",
+				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,

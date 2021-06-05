@@ -1,6 +1,8 @@
+#include <iostream>
+
 #include "card.hpp"
 
-Card::Card(char r, char s){
+Card::Card(std::string r, std::string s){
     rank = r; suit = s;
     
 }
@@ -9,12 +11,12 @@ Card::~Card(){
 
 }
 
-char Card::get_rank(void){
+std::string Card::get_rank(void){
     return rank;
 
 }
 
-char Card::get_suit(void){
+std::string Card::get_suit(void){
     return suit;
 
 }
