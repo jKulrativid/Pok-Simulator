@@ -7,6 +7,7 @@ class Card{
     private:
         std::string rank;
         std::string suit;
+        
     public:
         Card(std::string r, std::string s);
         ~Card();
