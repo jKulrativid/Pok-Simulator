@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/basetest.cpp" "test/CMakeFiles/test.dir/basetest.cpp.obj" "gcc" "test/CMakeFiles/test.dir/basetest.cpp.obj.d"
-  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_eff_test.cpp" "test/CMakeFiles/test.dir/shuffle_eff_test.cpp.obj" "gcc" "test/CMakeFiles/test.dir/shuffle_eff_test.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_test.cpp" "test/CMakeFiles/test.dir/shuffle_test.cpp.obj" "gcc" "test/CMakeFiles/test.dir/shuffle_test.cpp.obj.d"
   )
 
 # Targets to which this target links.

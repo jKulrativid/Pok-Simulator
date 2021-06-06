@@ -97,17 +97,6 @@ void Deck::riffle(){
 
 }
 
-void Deck::formal_shuffle(){
-    for (int i=0; i<3; i++){
-        shuffle();
-        cut();
-        riffle();
-        shuffle();
-    }
-    cut();
-
-}
-
 // GETTER && SETTER //
 std::vector<Card> Deck::get_card_list(){
     return card_list;

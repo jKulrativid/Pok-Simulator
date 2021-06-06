@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/base.dir/card.cpp.obj"
   "CMakeFiles/base.dir/card.cpp.obj.d"
+  "CMakeFiles/base.dir/dealer.cpp.obj"
+  "CMakeFiles/base.dir/dealer.cpp.obj.d"
   "CMakeFiles/base.dir/deck.cpp.obj"
   "CMakeFiles/base.dir/deck.cpp.obj.d"
   "CMakeFiles/base.dir/player.cpp.obj"

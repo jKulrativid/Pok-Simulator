@@ -128,10 +128,6 @@ main/CMakeFiles/testmain.dir/testmain.cpp.obj: C:/Users/user/ProjeXt/pok-simulat
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
-  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h \
-  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/test.hpp
 
 
@@ -388,13 +384,5 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
-
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
-
-C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h:
-
-C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
-
-C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/test.hpp:

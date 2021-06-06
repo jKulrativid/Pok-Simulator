@@ -153,29 +153,29 @@ basetest.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/basetest.cpp.s
 .PHONY : basetest.cpp.s
 
-shuffle_eff_test.obj: shuffle_eff_test.cpp.obj
-.PHONY : shuffle_eff_test.obj
+shuffle_test.obj: shuffle_test.cpp.obj
+.PHONY : shuffle_test.obj
 
 # target to build an object file
-shuffle_eff_test.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_eff_test.cpp.obj
-.PHONY : shuffle_eff_test.cpp.obj
+shuffle_test.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_test.cpp.obj
+.PHONY : shuffle_test.cpp.obj
 
-shuffle_eff_test.i: shuffle_eff_test.cpp.i
-.PHONY : shuffle_eff_test.i
+shuffle_test.i: shuffle_test.cpp.i
+.PHONY : shuffle_test.i
 
 # target to preprocess a source file
-shuffle_eff_test.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_eff_test.cpp.i
-.PHONY : shuffle_eff_test.cpp.i
+shuffle_test.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_test.cpp.i
+.PHONY : shuffle_test.cpp.i
 
-shuffle_eff_test.s: shuffle_eff_test.cpp.s
-.PHONY : shuffle_eff_test.s
+shuffle_test.s: shuffle_test.cpp.s
+.PHONY : shuffle_test.s
 
 # target to generate assembly for a file
-shuffle_eff_test.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_eff_test.cpp.s
-.PHONY : shuffle_eff_test.cpp.s
+shuffle_test.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_test.cpp.s
+.PHONY : shuffle_test.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo ... basetest.obj
 	@echo ... basetest.i
 	@echo ... basetest.s
-	@echo ... shuffle_eff_test.obj
-	@echo ... shuffle_eff_test.i
-	@echo ... shuffle_eff_test.s
+	@echo ... shuffle_test.obj
+	@echo ... shuffle_test.i
+	@echo ... shuffle_test.s
 .PHONY : help
 
 

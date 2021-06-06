@@ -17,7 +17,6 @@ class Deck{
         void shuffle();
         void cut();
         void riffle();
-        void formal_shuffle();        
         
         // GETTER && SETTER //
         std::vector<Card> get_card_list();

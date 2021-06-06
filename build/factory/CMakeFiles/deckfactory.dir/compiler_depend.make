@@ -137,6 +137,18 @@ factory/CMakeFiles/deckfactory.dir/deckfactory.cpp.obj: C:/Users/user/ProjeXt/po
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/ref.hpp \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp
 
 
@@ -147,6 +159,8 @@ C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.cpp:
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/errno.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
@@ -189,6 +203,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio:
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar:
 
@@ -288,6 +304,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-ming
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/ctype.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
@@ -295,6 +313,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-ming
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 
@@ -388,7 +408,11 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-ming
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc:
 
@@ -411,3 +435,15 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp:
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/ref.hpp:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h:

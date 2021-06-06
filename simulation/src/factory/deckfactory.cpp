@@ -3,6 +3,7 @@
 
 #include <deck.hpp>
 #include <card.hpp>
+#include <ref.hpp>
 
 #include "deckfactory.hpp"
 
@@ -15,8 +16,6 @@ DeckFactory::~DeckFactory(){
 }
 
 void add_one_stack(Deck* deck){
-    std::string ranks[] = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
-    std::string suits[] = {"S", "H", "D", "C"};
     for (auto r: ranks){
         for (auto s: suits){
             Card card(r, s);
