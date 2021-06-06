@@ -138,5 +138,17 @@ factory/CMakeFiles/deckfactory.dir/deckfactory.cpp.obj
  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.hpp
  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp
  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.hpp
+ C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/ref.hpp
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h
+ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h
  C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp
 

@@ -6,6 +6,7 @@ add_library(
     deck.cpp
     player.hpp
     player.cpp
+    dealer.cpp
 )
 
 target_include_directories(base PUBLIC "${CMAKE_CURRENT_SOUR_DIR}")

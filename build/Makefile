@@ -167,19 +167,6 @@ pok-simulator/fast:
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
 .PHONY : pok-simulator/fast
 
-#=============================================================================
-# Target rules for targets named testmain
-
-# Build rule for target.
-testmain: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testmain
-.PHONY : testmain
-
-# fast build rule for target.
-testmain/fast:
-	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\testmain.dir\build.make main/CMakeFiles/testmain.dir/build
-.PHONY : testmain/fast
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -192,7 +179,6 @@ help:
 	@echo ... deckfactory
 	@echo ... pok-simulator
 	@echo ... test
-	@echo ... testmain
 .PHONY : help
 
 

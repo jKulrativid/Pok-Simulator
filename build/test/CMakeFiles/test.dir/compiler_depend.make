@@ -142,7 +142,7 @@ test/CMakeFiles/test.dir/basetest.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/s
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/test.hpp
 
-test/CMakeFiles/test.dir/shuffle_eff_test.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_eff_test.cpp \
+test/CMakeFiles/test.dir/shuffle_test.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_test.cpp \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -504,8 +504,6 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/malloc.h:
 
-C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_eff_test.cpp:
-
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
@@ -563,6 +561,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.hpp:
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/test.hpp:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_test.cpp:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
 

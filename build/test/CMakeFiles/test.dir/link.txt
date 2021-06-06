@@ -1,2 +1,2 @@
-C:\Mingw_64\mingw64\bin\ar.exe qc libtest.a CMakeFiles/test.dir/shuffle_eff_test.cpp.obj CMakeFiles/test.dir/basetest.cpp.obj
+C:\Mingw_64\mingw64\bin\ar.exe qc libtest.a CMakeFiles/test.dir/shuffle_test.cpp.obj CMakeFiles/test.dir/basetest.cpp.obj
 C:\Mingw_64\mingw64\bin\ranlib.exe libtest.a

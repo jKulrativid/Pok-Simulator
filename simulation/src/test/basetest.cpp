@@ -8,10 +8,14 @@
 #include "test.hpp"
 
 void test::base_test(){
+    Dealer dealer("Dealer");
+    Player p1("Player1"), p2("Player2");
     DeckFactory df;
-    Deck test_deck = df.get_new_deck(1);
-    test_deck.shuffle();
-    Card c = test_deck.pick_card();
-    std::cout << c.get_rank() << c.get_suit() << std::endl;
+    dealer.set_deck(df.get_new_deck(1));
+    dealer.formal_shuffle();
+    dealer.hand_out_card(&p1, 2);
+    dealer.hand_out_card(&p2, 2);
+    std::cout << p1.get_card_value() << "\n";
+    std::cout << p2.get_card_value() << "\n";
 
 }

@@ -17,6 +17,7 @@ class Player{
         Player(std::string new_name);
         ~Player();
         void obtain_card(Card card);
+        int get_card_value();
         void reset_hand();
 
         // GETTER && SETTER //
@@ -34,7 +35,8 @@ class Dealer: public Player{
     public:
         Dealer();
         Dealer(std::string new_name);
-        void give_card_to_player(Player other_player);
+        void formal_shuffle();
+        void hand_out_card(Player* other_player, int amount);
         
         // GETTER && SETTER //
         Deck get_deck();

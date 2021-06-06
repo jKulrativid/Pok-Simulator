@@ -60,5 +60,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "factory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
   "test/CMakeFiles/test.dir/DependInfo.cmake"
   "main/CMakeFiles/pok-simulator.dir/DependInfo.cmake"
-  "main/CMakeFiles/testmain.dir/DependInfo.cmake"
   )

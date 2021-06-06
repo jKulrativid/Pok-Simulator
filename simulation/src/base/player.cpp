@@ -1,4 +1,5 @@
 #include "player.hpp"
+#include "ref.hpp"
 
 Player::Player(){
     name = "Anonymous";
@@ -18,6 +19,17 @@ Player::~Player(){
 
 void Player::obtain_card(Card card){
     hand.push_back(card);
+
+}
+
+int Player::get_card_value(){
+    int total = 0;
+    for (Card card: hand){
+        std::string rank = card.get_rank();
+        total += rank_value.at(rank);
+        
+    }
+    return total % 10;
 
 }
 

@@ -73,8 +73,7 @@
 					"source" : "main",
 					"targetIndexes" : 
 					[
-						2,
-						4
+						2
 					]
 				}
 			],
@@ -96,8 +95,7 @@
 						0,
 						1,
 						2,
-						3,
-						4
+						3
 					]
 				}
 			],
@@ -106,7 +104,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "base::@4506b02e7a4fef989908",
-					"jsonFile" : "target-base-Debug-ea84e678639730426bb8.json",
+					"jsonFile" : "target-base-Debug-639f67733f33bc460887.json",
 					"name" : "base",
 					"projectIndex" : 0
 				},
@@ -120,22 +118,15 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-cf5b8d4f51c25864d874.json",
+					"jsonFile" : "target-pok-simulator-Debug-2cf2ca285414deb94eec.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "test::@36f028580bb02cc8272a",
-					"jsonFile" : "target-test-Debug-3ac38b5dead596ebcc3b.json",
+					"jsonFile" : "target-test-Debug-a8f059680c1aea2494ec.json",
 					"name" : "test",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 4,
-					"id" : "testmain::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-testmain-Debug-e38ba706d6d9988230fa.json",
-					"name" : "testmain",
 					"projectIndex" : 0
 				}
 			]

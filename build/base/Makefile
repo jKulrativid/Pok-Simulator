@@ -153,6 +153,30 @@ card.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/card.cpp.s
 .PHONY : card.cpp.s
 
+dealer.obj: dealer.cpp.obj
+.PHONY : dealer.obj
+
+# target to build an object file
+dealer.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/dealer.cpp.obj
+.PHONY : dealer.cpp.obj
+
+dealer.i: dealer.cpp.i
+.PHONY : dealer.i
+
+# target to preprocess a source file
+dealer.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/dealer.cpp.i
+.PHONY : dealer.cpp.i
+
+dealer.s: dealer.cpp.s
+.PHONY : dealer.s
+
+# target to generate assembly for a file
+dealer.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/dealer.cpp.s
+.PHONY : dealer.cpp.s
+
 deck.obj: deck.cpp.obj
 .PHONY : deck.obj
 
@@ -213,6 +237,9 @@ help:
 	@echo ... card.obj
 	@echo ... card.i
 	@echo ... card.s
+	@echo ... dealer.obj
+	@echo ... dealer.i
+	@echo ... dealer.s
 	@echo ... deck.obj
 	@echo ... deck.i
 	@echo ... deck.s

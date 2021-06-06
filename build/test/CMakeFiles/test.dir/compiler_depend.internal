@@ -143,8 +143,8 @@ test/CMakeFiles/test.dir/basetest.cpp.obj
  C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.hpp
  C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/test.hpp
 
-test/CMakeFiles/test.dir/shuffle_eff_test.cpp.obj
- C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_eff_test.cpp
+test/CMakeFiles/test.dir/shuffle_test.cpp.obj
+ C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_test.cpp
  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream
  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h

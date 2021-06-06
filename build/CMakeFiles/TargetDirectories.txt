@@ -11,5 +11,4 @@ C:/Users/user/ProjeXt/pok-simulator/build/test/CMakeFiles/test.dir
 C:/Users/user/ProjeXt/pok-simulator/build/test/CMakeFiles/edit_cache.dir
 C:/Users/user/ProjeXt/pok-simulator/build/main/CMakeFiles/pok-simulator.dir
 C:/Users/user/ProjeXt/pok-simulator/build/main/CMakeFiles/edit_cache.dir
-C:/Users/user/ProjeXt/pok-simulator/build/main/CMakeFiles/testmain.dir
 C:/Users/user/ProjeXt/pok-simulator/build/main/CMakeFiles/rebuild_cache.dir
