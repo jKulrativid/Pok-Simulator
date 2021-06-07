@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libdeck.a CMakeFiles/deck.dir/deck.cpp.obj CMakeFiles/deck.dir/shuffler.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libdeck.a

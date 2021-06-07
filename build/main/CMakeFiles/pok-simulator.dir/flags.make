@@ -4,7 +4,7 @@
 # compile CXX with C:/Mingw_64/mingw64/bin/x86_64-w64-mingw32-g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/pok-simulator.dir/includes_CXX.rsp
+CXX_INCLUDES = 
 
 CXX_FLAGS = -g
 

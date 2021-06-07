@@ -1,42 +1,52 @@
 [
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/base.dir/includes_CXX.rsp -g -o CMakeFiles\\base.dir\\card.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\card.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/reference",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/reference.dir/includes_CXX.rsp -g -o CMakeFiles\\reference.dir\\rank.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\reference\\rank.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/reference/rank.cpp"
 },
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/base.dir/includes_CXX.rsp -g -o CMakeFiles\\base.dir\\deck.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\deck.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base/card",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/card.dir/includes_CXX.rsp -g -o CMakeFiles\\card.dir\\card.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\card\\card.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.cpp"
 },
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/base.dir/includes_CXX.rsp -g -o CMakeFiles\\base.dir\\player.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\player.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base/card",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/card.dir/includes_CXX.rsp -g -o CMakeFiles\\card.dir\\value_calculator.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\card\\value_calculator.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/value_calculator.cpp"
 },
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/base.dir/includes_CXX.rsp -g -o CMakeFiles\\base.dir\\dealer.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\dealer.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/dealer.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base/deck",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/deck.dir/includes_CXX.rsp -g -o CMakeFiles\\deck.dir\\deck.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\deck\\deck.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.cpp"
 },
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/factory",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/deckfactory.dir/includes_CXX.rsp -g -o CMakeFiles\\deckfactory.dir\\deckfactory.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\factory\\deckfactory.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/deckfactory.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base/deck",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/deck.dir/includes_CXX.rsp -g -o CMakeFiles\\deck.dir\\shuffler.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\deck\\shuffler.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/shuffler.cpp"
 },
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/test",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -o CMakeFiles\\test.dir\\shuffle_test.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\test\\shuffle_test.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_test.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base/player",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/player.dir/includes_CXX.rsp -g -o CMakeFiles\\player.dir\\hand.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\player\\hand.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/hand.cpp"
 },
 {
-  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/test",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -o CMakeFiles\\test.dir\\basetest.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\test\\basetest.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/basetest.cpp"
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base/player",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/player.dir/includes_CXX.rsp -g -o CMakeFiles\\player.dir\\player.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\player\\player.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/player.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/base/player",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/player.dir/includes_CXX.rsp -g -o CMakeFiles\\player.dir\\dealer.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\base\\player\\dealer.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/dealer.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/deckfactory",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/deckfactory.dir/includes_CXX.rsp -g -o CMakeFiles\\deckfactory.dir\\deckfactory.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\deckfactory\\deckfactory.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/deckfactory.cpp"
 },
 {
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/main",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/pok-simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\pok-simulator.dir\\main.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\main\\main.cpp",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\pok-simulator.dir\\main.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\main\\main.cpp",
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/main.cpp"
 }
 ]

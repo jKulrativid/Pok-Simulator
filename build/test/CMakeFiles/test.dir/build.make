@@ -68,20 +68,20 @@ include test/CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/test.dir/flags.make
 
-test/CMakeFiles/test.dir/shuffle_test.cpp.obj: test/CMakeFiles/test.dir/flags.make
-test/CMakeFiles/test.dir/shuffle_test.cpp.obj: test/CMakeFiles/test.dir/includes_CXX.rsp
-test/CMakeFiles/test.dir/shuffle_test.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/shuffle_test.cpp
-test/CMakeFiles/test.dir/shuffle_test.cpp.obj: test/CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/shuffle_test.cpp.obj"
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build\test && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test.dir/shuffle_test.cpp.obj -MF CMakeFiles\test.dir\shuffle_test.cpp.obj.d -o CMakeFiles\test.dir\shuffle_test.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\test\shuffle_test.cpp
+test/CMakeFiles/test.dir/referencetest.cpp.obj: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/referencetest.cpp.obj: test/CMakeFiles/test.dir/includes_CXX.rsp
+test/CMakeFiles/test.dir/referencetest.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/referencetest.cpp
+test/CMakeFiles/test.dir/referencetest.cpp.obj: test/CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/referencetest.cpp.obj"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\test && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test.dir/referencetest.cpp.obj -MF CMakeFiles\test.dir\referencetest.cpp.obj.d -o CMakeFiles\test.dir\referencetest.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\test\referencetest.cpp
 
-test/CMakeFiles/test.dir/shuffle_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/shuffle_test.cpp.i"
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build\test && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\test\shuffle_test.cpp > CMakeFiles\test.dir\shuffle_test.cpp.i
+test/CMakeFiles/test.dir/referencetest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/referencetest.cpp.i"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\test && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\test\referencetest.cpp > CMakeFiles\test.dir\referencetest.cpp.i
 
-test/CMakeFiles/test.dir/shuffle_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/shuffle_test.cpp.s"
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build\test && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\test\shuffle_test.cpp -o CMakeFiles\test.dir\shuffle_test.cpp.s
+test/CMakeFiles/test.dir/referencetest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/referencetest.cpp.s"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\test && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\test\referencetest.cpp -o CMakeFiles\test.dir\referencetest.cpp.s
 
 test/CMakeFiles/test.dir/basetest.cpp.obj: test/CMakeFiles/test.dir/flags.make
 test/CMakeFiles/test.dir/basetest.cpp.obj: test/CMakeFiles/test.dir/includes_CXX.rsp
@@ -100,13 +100,13 @@ test/CMakeFiles/test.dir/basetest.cpp.s: cmake_force
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/shuffle_test.cpp.obj" \
+"CMakeFiles/test.dir/referencetest.cpp.obj" \
 "CMakeFiles/test.dir/basetest.cpp.obj"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test/libtest.a: test/CMakeFiles/test.dir/shuffle_test.cpp.obj
+test/libtest.a: test/CMakeFiles/test.dir/referencetest.cpp.obj
 test/libtest.a: test/CMakeFiles/test.dir/basetest.cpp.obj
 test/libtest.a: test/CMakeFiles/test.dir/build.make
 test/libtest.a: test/CMakeFiles/test.dir/link.txt

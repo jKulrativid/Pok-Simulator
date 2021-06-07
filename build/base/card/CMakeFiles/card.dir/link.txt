@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libcard.a CMakeFiles/card.dir/card.cpp.obj CMakeFiles/card.dir/value_calculator.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libcard.a

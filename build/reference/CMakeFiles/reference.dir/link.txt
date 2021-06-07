@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libreference.a CMakeFiles/reference.dir/rank.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libreference.a

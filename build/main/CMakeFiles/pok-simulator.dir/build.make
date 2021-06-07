@@ -69,7 +69,6 @@ include main/CMakeFiles/pok-simulator.dir/progress.make
 include main/CMakeFiles/pok-simulator.dir/flags.make
 
 main/CMakeFiles/pok-simulator.dir/main.cpp.obj: main/CMakeFiles/pok-simulator.dir/flags.make
-main/CMakeFiles/pok-simulator.dir/main.cpp.obj: main/CMakeFiles/pok-simulator.dir/includes_CXX.rsp
 main/CMakeFiles/pok-simulator.dir/main.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/main.cpp
 main/CMakeFiles/pok-simulator.dir/main.cpp.obj: main/CMakeFiles/pok-simulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object main/CMakeFiles/pok-simulator.dir/main.cpp.obj"
@@ -92,11 +91,6 @@ pok__simulator_EXTERNAL_OBJECTS =
 
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/main.cpp.obj
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/build.make
-main/pok-simulator.exe: base/libbase.a
-main/pok-simulator.exe: factory/libdeckfactory.a
-main/pok-simulator.exe: test/libtest.a
-main/pok-simulator.exe: factory/libdeckfactory.a
-main/pok-simulator.exe: base/libbase.a
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/linklibs.rsp
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/objects1.rsp
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/link.txt
