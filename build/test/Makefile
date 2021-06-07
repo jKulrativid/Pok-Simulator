@@ -153,29 +153,29 @@ basetest.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/basetest.cpp.s
 .PHONY : basetest.cpp.s
 
-shuffle_test.obj: shuffle_test.cpp.obj
-.PHONY : shuffle_test.obj
+referencetest.obj: referencetest.cpp.obj
+.PHONY : referencetest.obj
 
 # target to build an object file
-shuffle_test.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_test.cpp.obj
-.PHONY : shuffle_test.cpp.obj
+referencetest.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/referencetest.cpp.obj
+.PHONY : referencetest.cpp.obj
 
-shuffle_test.i: shuffle_test.cpp.i
-.PHONY : shuffle_test.i
+referencetest.i: referencetest.cpp.i
+.PHONY : referencetest.i
 
 # target to preprocess a source file
-shuffle_test.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_test.cpp.i
-.PHONY : shuffle_test.cpp.i
+referencetest.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/referencetest.cpp.i
+.PHONY : referencetest.cpp.i
 
-shuffle_test.s: shuffle_test.cpp.s
-.PHONY : shuffle_test.s
+referencetest.s: referencetest.cpp.s
+.PHONY : referencetest.s
 
 # target to generate assembly for a file
-shuffle_test.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/shuffle_test.cpp.s
-.PHONY : shuffle_test.cpp.s
+referencetest.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/referencetest.cpp.s
+.PHONY : referencetest.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo ... basetest.obj
 	@echo ... basetest.i
 	@echo ... basetest.s
-	@echo ... shuffle_test.obj
-	@echo ... shuffle_test.i
-	@echo ... shuffle_test.s
+	@echo ... referencetest.obj
+	@echo ... referencetest.i
+	@echo ... referencetest.s
 .PHONY : help
 
 

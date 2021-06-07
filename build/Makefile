@@ -116,17 +116,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named base
+# Target rules for targets named reference
 
 # Build rule for target.
-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base
-.PHONY : base
+reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reference
+.PHONY : reference
 
 # fast build rule for target.
-base/fast:
-	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/build
-.PHONY : base/fast
+reference/fast:
+	$(MAKE) $(MAKESILENT) -f reference\CMakeFiles\reference.dir\build.make reference/CMakeFiles/reference.dir/build
+.PHONY : reference/fast
+
+#=============================================================================
+# Target rules for targets named card
+
+# Build rule for target.
+card: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 card
+.PHONY : card
+
+# fast build rule for target.
+card/fast:
+	$(MAKE) $(MAKESILENT) -f base\card\CMakeFiles\card.dir\build.make base/card/CMakeFiles/card.dir/build
+.PHONY : card/fast
+
+#=============================================================================
+# Target rules for targets named deck
+
+# Build rule for target.
+deck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deck
+.PHONY : deck
+
+# fast build rule for target.
+deck/fast:
+	$(MAKE) $(MAKESILENT) -f base\deck\CMakeFiles\deck.dir\build.make base/deck/CMakeFiles/deck.dir/build
+.PHONY : deck/fast
+
+#=============================================================================
+# Target rules for targets named player
+
+# Build rule for target.
+player: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 player
+.PHONY : player
+
+# fast build rule for target.
+player/fast:
+	$(MAKE) $(MAKESILENT) -f base\player\CMakeFiles\player.dir\build.make base/player/CMakeFiles/player.dir/build
+.PHONY : player/fast
 
 #=============================================================================
 # Target rules for targets named deckfactory
@@ -138,21 +177,8 @@ deckfactory: cmake_check_build_system
 
 # fast build rule for target.
 deckfactory/fast:
-	$(MAKE) $(MAKESILENT) -f factory\CMakeFiles\deckfactory.dir\build.make factory/CMakeFiles/deckfactory.dir/build
+	$(MAKE) $(MAKESILENT) -f deckfactory\CMakeFiles\deckfactory.dir\build.make deckfactory/CMakeFiles/deckfactory.dir/build
 .PHONY : deckfactory/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
 
 #=============================================================================
 # Target rules for targets named pok-simulator
@@ -175,10 +201,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... base
+	@echo ... card
+	@echo ... deck
 	@echo ... deckfactory
+	@echo ... player
 	@echo ... pok-simulator
-	@echo ... test
+	@echo ... reference
 .PHONY : help
 
 

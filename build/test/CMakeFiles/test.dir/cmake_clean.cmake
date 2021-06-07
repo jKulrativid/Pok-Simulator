@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test.dir/basetest.cpp.obj"
   "CMakeFiles/test.dir/basetest.cpp.obj.d"
-  "CMakeFiles/test.dir/shuffle_test.cpp.obj"
-  "CMakeFiles/test.dir/shuffle_test.cpp.obj.d"
+  "CMakeFiles/test.dir/referencetest.cpp.obj"
+  "CMakeFiles/test.dir/referencetest.cpp.obj.d"
   "libtest.a"
   "libtest.pdb"
 )

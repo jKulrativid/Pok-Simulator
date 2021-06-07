@@ -13,9 +13,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/CMakeLists.txt"
-  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/factory/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/CMakeLists.txt"
-  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/reference/CMakeLists.txt"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCInformation.cmake"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
@@ -48,16 +51,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "reference/CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "factory/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "base/card/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "base/deck/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "base/player/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "deckfactory/CMakeFiles/CMakeDirectoryInformation.cmake"
   "main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "base/CMakeFiles/base.dir/DependInfo.cmake"
-  "factory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
-  "test/CMakeFiles/test.dir/DependInfo.cmake"
+  "reference/CMakeFiles/reference.dir/DependInfo.cmake"
+  "base/card/CMakeFiles/card.dir/DependInfo.cmake"
+  "base/deck/CMakeFiles/deck.dir/DependInfo.cmake"
+  "base/player/CMakeFiles/player.dir/DependInfo.cmake"
+  "deckfactory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
   "main/CMakeFiles/pok-simulator.dir/DependInfo.cmake"
   )

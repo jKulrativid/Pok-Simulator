@@ -115,116 +115,6 @@ depend:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-base/CMakeFiles/base.dir/rule:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base/CMakeFiles/base.dir/rule
-.PHONY : base/CMakeFiles/base.dir/rule
-
-# Convenience name for target.
-base: base/CMakeFiles/base.dir/rule
-.PHONY : base
-
-# fast build rule for target.
-base/fast:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/build
-.PHONY : base/fast
-
-card.obj: card.cpp.obj
-.PHONY : card.obj
-
-# target to build an object file
-card.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/card.cpp.obj
-.PHONY : card.cpp.obj
-
-card.i: card.cpp.i
-.PHONY : card.i
-
-# target to preprocess a source file
-card.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/card.cpp.i
-.PHONY : card.cpp.i
-
-card.s: card.cpp.s
-.PHONY : card.s
-
-# target to generate assembly for a file
-card.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/card.cpp.s
-.PHONY : card.cpp.s
-
-dealer.obj: dealer.cpp.obj
-.PHONY : dealer.obj
-
-# target to build an object file
-dealer.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/dealer.cpp.obj
-.PHONY : dealer.cpp.obj
-
-dealer.i: dealer.cpp.i
-.PHONY : dealer.i
-
-# target to preprocess a source file
-dealer.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/dealer.cpp.i
-.PHONY : dealer.cpp.i
-
-dealer.s: dealer.cpp.s
-.PHONY : dealer.s
-
-# target to generate assembly for a file
-dealer.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/dealer.cpp.s
-.PHONY : dealer.cpp.s
-
-deck.obj: deck.cpp.obj
-.PHONY : deck.obj
-
-# target to build an object file
-deck.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/deck.cpp.obj
-.PHONY : deck.cpp.obj
-
-deck.i: deck.cpp.i
-.PHONY : deck.i
-
-# target to preprocess a source file
-deck.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/deck.cpp.i
-.PHONY : deck.cpp.i
-
-deck.s: deck.cpp.s
-.PHONY : deck.s
-
-# target to generate assembly for a file
-deck.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/deck.cpp.s
-.PHONY : deck.cpp.s
-
-player.obj: player.cpp.obj
-.PHONY : player.obj
-
-# target to build an object file
-player.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/player.cpp.obj
-.PHONY : player.cpp.obj
-
-player.i: player.cpp.i
-.PHONY : player.i
-
-# target to preprocess a source file
-player.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/player.cpp.i
-.PHONY : player.cpp.i
-
-player.s: player.cpp.s
-.PHONY : player.s
-
-# target to generate assembly for a file
-player.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\base.dir\build.make base/CMakeFiles/base.dir/player.cpp.s
-.PHONY : player.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -233,19 +123,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... base
-	@echo ... card.obj
-	@echo ... card.i
-	@echo ... card.s
-	@echo ... dealer.obj
-	@echo ... dealer.i
-	@echo ... dealer.s
-	@echo ... deck.obj
-	@echo ... deck.i
-	@echo ... deck.s
-	@echo ... player.obj
-	@echo ... player.i
-	@echo ... player.s
 .PHONY : help
 
 

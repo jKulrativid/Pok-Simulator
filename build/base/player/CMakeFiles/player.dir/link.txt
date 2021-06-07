@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libplayer.a CMakeFiles/player.dir/hand.cpp.obj CMakeFiles/player.dir/player.cpp.obj CMakeFiles/player.dir/dealer.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libplayer.a
