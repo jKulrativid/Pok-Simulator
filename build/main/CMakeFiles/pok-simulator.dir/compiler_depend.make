@@ -128,11 +128,20 @@ main/CMakeFiles/pok-simulator.dir/main.cpp.obj: C:/Users/user/ProjeXt/pok-simula
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
   C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h \
   C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h \
   C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/test.hpp
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/player.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/deckfactory.hpp
 
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
@@ -267,6 +276,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterat
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h:
 
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/player.hpp:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h:
@@ -389,6 +400,18 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h:
@@ -397,4 +420,8 @@ C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
 
-C:/Users/user/ProjeXt/pok-simulator/simulation/src/test/test.hpp:
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.hpp:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/deckfactory.hpp:

@@ -8,7 +8,7 @@ class DeckFactory{
     public:
         DeckFactory();
         ~DeckFactory();
-        Deck get_new_deck(int stack);
+        Deck* get_new_deck(int stack_amount);
 
 };
 

@@ -16,15 +16,15 @@ void Hand::clear(){
 
 }
 
-void Hand::add_card(Card card){
+void Hand::add_card(Card* card){
     holding_cards.push_back(card);
     ++hand_size;
 
 }
 
-Card Hand::pick_card(){
+Card* Hand::pick_card(){
     int top_card_index = hand_size-1;
-    Card picked_card = holding_cards.at(top_card_index);
+    Card* picked_card = holding_cards.at(top_card_index);
     holding_cards.erase(holding_cards.end());
     --hand_size;
     return picked_card;
@@ -32,8 +32,8 @@ Card Hand::pick_card(){
 }
 
 // GETTER && SETTER //
-std::vector<Card> Hand::get_holding_cards(){
-    return holding_cards;
+std::vector<Card*>* Hand::get_holding_cards(){
+    return &holding_cards;
 
 }
 
@@ -42,7 +42,7 @@ int Hand::get_hand_size(){
 
 }
 
-void Hand::set_holding_cards(std::vector<Card> new_holding_cards){
-    holding_cards = new_holding_cards;
+void Hand::set_holding_cards(std::vector<Card*>* new_holding_cards){
+    holding_cards = *new_holding_cards;
 
 }

@@ -17,20 +17,20 @@ DeckFactory::~DeckFactory(){
 void add_one_stack(Deck* deck){
     for (auto r: ranks){
         for (auto s: suits){
-            Card card(r, s);
+            Card *card = new Card(r, s);
             deck->add_card_on_top(card);
 
         }
     }
 }
 
-Deck DeckFactory::get_new_deck(int stacks){
-    Deck deck;
-    if (stacks < 1){
-        stacks = 1;
+Deck* DeckFactory::get_new_deck(int stack_amount){
+    Deck* deck = new Deck();
+    if (stack_amount < 1){
+        stack_amount = 1;
     }
-    for (int i=0; i<stacks; i++){
-        add_one_stack(&deck);
+    for (int i=0; i<stack_amount; i++){
+        add_one_stack(deck);
     }
     return deck;
 
