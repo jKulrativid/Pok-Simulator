@@ -1,19 +1,23 @@
 #include <iostream>
+#include <vector>
 #include <ctime>
+#include <unordered_map>
 
-// Put Test HERE !!!!
-void runtest(){
-    std::cout << "<<<<<<<<<<<<<<< RUN TEST >>>>>>>>>>>>>>>\n";
+#include <deck.hpp>
+#include <player.hpp>
+#include <deckfactory.hpp>
+
+void init_seed_rand(){
+    std::srand(std::time(NULL));
+
 }
 
 void init_program(){
-    std::srand(std::time(NULL));
+    init_seed_rand();
 
 }
 
 int main(){
     init_program();
-    std::cout << "main Work\n";
-    runtest();
 
 }

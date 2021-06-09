@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libbias-tester.a CMakeFiles/bias-tester.dir/biastester.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libbias-tester.a
