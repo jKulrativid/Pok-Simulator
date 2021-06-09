@@ -181,6 +181,19 @@ deckfactory/fast:
 .PHONY : deckfactory/fast
 
 #=============================================================================
+# Target rules for targets named simulator
+
+# Build rule for target.
+simulator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simulator
+.PHONY : simulator
+
+# fast build rule for target.
+simulator/fast:
+	$(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
+.PHONY : simulator/fast
+
+#=============================================================================
 # Target rules for targets named pok-simulator
 
 # Build rule for target.
@@ -207,6 +220,7 @@ help:
 	@echo ... player
 	@echo ... pok-simulator
 	@echo ... reference
+	@echo ... simulator
 .PHONY : help
 
 

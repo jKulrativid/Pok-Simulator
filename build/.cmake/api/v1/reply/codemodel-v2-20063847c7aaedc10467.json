@@ -11,7 +11,8 @@
 						1,
 						2,
 						6,
-						7
+						7,
+						8
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -107,6 +108,20 @@
 					]
 				},
 				{
+					"build" : "simulator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "simulator",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
 					"build" : "main",
 					"minimumCMakeVersion" : 
 					{
@@ -134,7 +149,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"name" : "pok-simulator",
 					"targetIndexes" : 
@@ -144,7 +160,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -179,7 +196,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
 					"jsonFile" : "target-pok-simulator-Debug-ffdccbc593fdec911d38.json",
 					"name" : "pok-simulator",
@@ -190,6 +207,13 @@
 					"id" : "reference::@cd9c8bcc9d98d2d4a4fb",
 					"jsonFile" : "target-reference-Debug-c99ab75ae710e8525f7f.json",
 					"name" : "reference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "simulator::@f1f3e991e10b5af6b966",
+					"jsonFile" : "target-simulator-Debug-e45f37be7a895f283689.json",
+					"name" : "simulator",
 					"projectIndex" : 0
 				}
 			]

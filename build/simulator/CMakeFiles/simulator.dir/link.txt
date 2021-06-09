@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libsimulator.a CMakeFiles/simulator.dir/simulator.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libsimulator.a
