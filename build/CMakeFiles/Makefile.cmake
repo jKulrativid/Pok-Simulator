@@ -16,10 +16,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/biastest/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/reference/CMakeLists.txt"
-  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/CMakeLists.txt"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCInformation.cmake"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
@@ -58,7 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "base/deck/CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/player/CMakeFiles/CMakeDirectoryInformation.cmake"
   "deckfactory/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "simulator/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "biastest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -69,6 +69,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "base/deck/CMakeFiles/deck.dir/DependInfo.cmake"
   "base/player/CMakeFiles/player.dir/DependInfo.cmake"
   "deckfactory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
-  "simulator/CMakeFiles/simulator.dir/DependInfo.cmake"
+  "biastest/CMakeFiles/biastest.dir/DependInfo.cmake"
   "main/CMakeFiles/pok-simulator.dir/DependInfo.cmake"
   )

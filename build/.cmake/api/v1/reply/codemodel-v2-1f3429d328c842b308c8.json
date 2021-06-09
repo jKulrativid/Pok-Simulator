@@ -32,7 +32,7 @@
 					"source" : "reference",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -62,7 +62,7 @@
 					"source" : "base/card",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -76,7 +76,7 @@
 					"source" : "base/deck",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -90,7 +90,7 @@
 					"source" : "base/player",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -104,21 +104,21 @@
 					"source" : "deckfactory",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
-					"build" : "simulator",
+					"build" : "biastest",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20.2"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "simulator",
+					"source" : "biastest",
 					"targetIndexes" : 
 					[
-						6
+						0
 					]
 				},
 				{
@@ -132,7 +132,7 @@
 					"source" : "main",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				}
 			],
@@ -168,6 +168,13 @@
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 7,
+					"id" : "biastest::@7e6d3b3ef309159301aa",
+					"jsonFile" : "target-biastest-Debug-8c21ed9c4c5a573af87e.json",
+					"name" : "biastest",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "card::@bbf7c4131e2feb56dbe2",
 					"jsonFile" : "target-card-Debug-913d489d02f33923c395.json",
@@ -177,14 +184,14 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "deck::@51153dfb49ed6736b24c",
-					"jsonFile" : "target-deck-Debug-e0cd45af47f731c2ffc3.json",
+					"jsonFile" : "target-deck-Debug-0b81a1d3b60e80bb3212.json",
 					"name" : "deck",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "deckfactory::@9089e1ee940b85919b32",
-					"jsonFile" : "target-deckfactory-Debug-b0a8410cba8fd0694125.json",
+					"jsonFile" : "target-deckfactory-Debug-dee35fa2ce6dbd998065.json",
 					"name" : "deckfactory",
 					"projectIndex" : 0
 				},
@@ -198,7 +205,7 @@
 				{
 					"directoryIndex" : 8,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-ffdccbc593fdec911d38.json",
+					"jsonFile" : "target-pok-simulator-Debug-1c2cd33952f777803761.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
@@ -207,13 +214,6 @@
 					"id" : "reference::@cd9c8bcc9d98d2d4a4fb",
 					"jsonFile" : "target-reference-Debug-c99ab75ae710e8525f7f.json",
 					"name" : "reference",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 7,
-					"id" : "simulator::@f1f3e991e10b5af6b966",
-					"jsonFile" : "target-simulator-Debug-e45f37be7a895f283689.json",
-					"name" : "simulator",
 					"projectIndex" : 0
 				}
 			]

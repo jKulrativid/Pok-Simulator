@@ -54,6 +54,12 @@
 				"file" : 0,
 				"line" : 6,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
 			}
 		]
 	},
@@ -83,6 +89,10 @@
 				{
 					"backtrace" : 5,
 					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/biastest"
 				}
 			],
 			"language" : "CXX",
@@ -113,6 +123,10 @@
 		{
 			"backtrace" : 5,
 			"id" : "deckfactory::@9089e1ee940b85919b32"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "biastest::@7e6d3b3ef309159301aa"
 		}
 	],
 	"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
@@ -141,6 +155,16 @@
 			{
 				"backtrace" : 4,
 				"fragment" : "..\\base\\player\\libplayer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\deckfactory\\libdeckfactory.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\biastest\\libbiastest.a",
 				"role" : "libraries"
 			},
 			{
