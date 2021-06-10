@@ -47,7 +47,7 @@
 					"source" : "importlib/json",
 					"targetIndexes" : 
 					[
-						4
+						3
 					]
 				},
 				{
@@ -61,7 +61,7 @@
 					"source" : "reference",
 					"targetIndexes" : 
 					[
-						7
+						6
 					]
 				},
 				{
@@ -91,7 +91,7 @@
 					"source" : "base/card",
 					"targetIndexes" : 
 					[
-						1
+						0
 					]
 				},
 				{
@@ -105,7 +105,7 @@
 					"source" : "base/deck",
 					"targetIndexes" : 
 					[
-						2
+						1
 					]
 				},
 				{
@@ -119,7 +119,7 @@
 					"source" : "base/player",
 					"targetIndexes" : 
 					[
-						5
+						4
 					]
 				},
 				{
@@ -133,21 +133,21 @@
 					"source" : "deckfactory",
 					"targetIndexes" : 
 					[
-						3
+						2
 					]
 				},
 				{
-					"build" : "biastest",
+					"build" : "simulator",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20.2"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "biastest",
+					"source" : "simulator",
 					"targetIndexes" : 
 					[
-						0
+						7
 					]
 				},
 				{
@@ -161,7 +161,7 @@
 					"source" : "main",
 					"targetIndexes" : 
 					[
-						6
+						5
 					]
 				}
 			],
@@ -200,13 +200,6 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 9,
-					"id" : "biastest::@7e6d3b3ef309159301aa",
-					"jsonFile" : "target-biastest-Debug-b866cce0a6bb001d3e09.json",
-					"name" : "biastest",
-					"projectIndex" : 0
-				},
-				{
 					"directoryIndex" : 5,
 					"id" : "card::@bbf7c4131e2feb56dbe2",
 					"jsonFile" : "target-card-Debug-913d489d02f33923c395.json",
@@ -244,7 +237,7 @@
 				{
 					"directoryIndex" : 10,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-81015d022d50c8b14226.json",
+					"jsonFile" : "target-pok-simulator-Debug-c97c684d9914aaf1e2db.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
@@ -253,6 +246,13 @@
 					"id" : "reference::@cd9c8bcc9d98d2d4a4fb",
 					"jsonFile" : "target-reference-Debug-c99ab75ae710e8525f7f.json",
 					"name" : "reference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "simulator::@f1f3e991e10b5af6b966",
+					"jsonFile" : "target-simulator-Debug-9cd327ff496450bad650.json",
+					"name" : "simulator",
 					"projectIndex" : 0
 				}
 			]

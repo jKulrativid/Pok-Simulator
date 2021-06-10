@@ -92,7 +92,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/biastest"
+					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator"
 				}
 			],
 			"language" : "CXX",
@@ -104,10 +104,6 @@
 	],
 	"dependencies" : 
 	[
-		{
-			"backtrace" : 6,
-			"id" : "json::@c32e42d125902da8ddbe"
-		},
 		{
 			"backtrace" : 2,
 			"id" : "reference::@cd9c8bcc9d98d2d4a4fb"
@@ -121,16 +117,16 @@
 			"id" : "deck::@51153dfb49ed6736b24c"
 		},
 		{
-			"backtrace" : 5,
-			"id" : "deckfactory::@9089e1ee940b85919b32"
+			"backtrace" : 4,
+			"id" : "player::@64513e8001a81810f494"
 		},
 		{
 			"backtrace" : 6,
-			"id" : "biastest::@7e6d3b3ef309159301aa"
+			"id" : "simulator::@f1f3e991e10b5af6b966"
 		},
 		{
-			"backtrace" : 4,
-			"id" : "player::@64513e8001a81810f494"
+			"backtrace" : 5,
+			"id" : "deckfactory::@9089e1ee940b85919b32"
 		}
 	],
 	"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
@@ -168,7 +164,12 @@
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "..\\biastest\\libbiastest.a",
+				"fragment" : "..\\simulator\\libsimulator.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\base\\player\\libplayer.a",
 				"role" : "libraries"
 			},
 			{
@@ -188,10 +189,6 @@
 			},
 			{
 				"fragment" : "..\\reference\\libreference.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "..\\importlib\\json\\libjson.a",
 				"role" : "libraries"
 			},
 			{
