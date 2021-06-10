@@ -443,8 +443,8 @@ main/CMakeFiles/pok-simulator.dir/all: importlib/json/CMakeFiles/json.dir/all
 main/CMakeFiles/pok-simulator.dir/all: reference/CMakeFiles/reference.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/card/CMakeFiles/card.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/deck/CMakeFiles/deck.dir/all
-main/CMakeFiles/pok-simulator.dir/all: biastest/CMakeFiles/biastest.dir/all
 main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
+main/CMakeFiles/pok-simulator.dir/all: biastest/CMakeFiles/biastest.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build

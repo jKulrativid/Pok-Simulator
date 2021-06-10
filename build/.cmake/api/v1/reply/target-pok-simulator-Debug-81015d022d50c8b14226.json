@@ -121,12 +121,12 @@
 			"id" : "deck::@51153dfb49ed6736b24c"
 		},
 		{
-			"backtrace" : 6,
-			"id" : "biastest::@7e6d3b3ef309159301aa"
-		},
-		{
 			"backtrace" : 5,
 			"id" : "deckfactory::@9089e1ee940b85919b32"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "biastest::@7e6d3b3ef309159301aa"
 		},
 		{
 			"backtrace" : 4,

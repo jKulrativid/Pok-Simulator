@@ -9,10 +9,10 @@
 
 #include "biastest.hpp"
 
-void write_map_to_json(std::map<std::string, long> count){
+void write_map_to_json(std::map<std::string, long> count, std::string name){
     std::string database_path = "data\\biastest.json";
     nlohmann::json j;
-    j["shuffle_bias"] = count;
+    j[name] = count;
     std::ofstream out_file(database_path);
     out_file << std::setw(4) << j << "\n";
     out_file.close();
@@ -47,7 +47,7 @@ void simulate_shuffle_bias(long round){
         count[pattern]++;
 
     }
-    write_map_to_json(count);
+    write_map_to_json(count, "shufflebias");
     show_map(count);
     return ;
     

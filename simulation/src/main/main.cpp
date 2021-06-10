@@ -8,8 +8,13 @@ void init_seed_rand(){
 
 }
 
+void generate_data_folder(){
+    
+}
+
 void init_program(){
     init_seed_rand();
+    generate_data_folder();
 
 }
 
