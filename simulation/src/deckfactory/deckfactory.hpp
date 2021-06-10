@@ -9,6 +9,7 @@ class DeckFactory{
         DeckFactory();
         ~DeckFactory();
         Deck* get_new_deck(int stack_amount);
+        Deck* get_test_deck();
 
 };
 

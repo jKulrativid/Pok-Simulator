@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named json
+
+# Build rule for target.
+json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 json
+.PHONY : json
+
+# fast build rule for target.
+json/fast:
+	$(MAKE) $(MAKESILENT) -f importlib\json\CMakeFiles\json.dir\build.make importlib/json/CMakeFiles/json.dir/build
+.PHONY : json/fast
+
+#=============================================================================
 # Target rules for targets named reference
 
 # Build rule for target.
@@ -181,17 +194,17 @@ deckfactory/fast:
 .PHONY : deckfactory/fast
 
 #=============================================================================
-# Target rules for targets named simulator
+# Target rules for targets named biastest
 
 # Build rule for target.
-simulator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simulator
-.PHONY : simulator
+biastest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 biastest
+.PHONY : biastest
 
 # fast build rule for target.
-simulator/fast:
-	$(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
-.PHONY : simulator/fast
+biastest/fast:
+	$(MAKE) $(MAKESILENT) -f biastest\CMakeFiles\biastest.dir\build.make biastest/CMakeFiles/biastest.dir/build
+.PHONY : biastest/fast
 
 #=============================================================================
 # Target rules for targets named pok-simulator
@@ -214,13 +227,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... biastest
 	@echo ... card
 	@echo ... deck
 	@echo ... deckfactory
+	@echo ... json
 	@echo ... player
 	@echo ... pok-simulator
 	@echo ... reference
-	@echo ... simulator
 .PHONY : help
 
 

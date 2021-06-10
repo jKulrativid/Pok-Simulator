@@ -1,0 +1,10 @@
+{
+    "shuffle_bias": {
+        "JKQ": 16,
+        "JQK": 23,
+        "KJQ": 13,
+        "KQJ": 20,
+        "QJK": 13,
+        "QKJ": 15
+    }
+}

@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 #include <rank.hpp>
 #include <suit.hpp>
@@ -34,4 +33,13 @@ Deck* DeckFactory::get_new_deck(int stack_amount){
     }
     return deck;
 
+}
+
+Deck* DeckFactory::get_test_deck(){
+    Deck* deck = new Deck();
+    deck->add_card_on_top(new Card("J", "S"));
+    deck->add_card_on_top(new Card("Q", "S"));
+    deck->add_card_on_top(new Card("K", "S"));
+    return deck;
+    
 }

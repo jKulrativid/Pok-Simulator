@@ -1,0 +1,2 @@
+C:\Mingw_64\mingw64\bin\ar.exe qc libbiastest.a CMakeFiles/biastest.dir/biastest.cpp.obj
+C:\Mingw_64\mingw64\bin\ranlib.exe libbiastest.a
