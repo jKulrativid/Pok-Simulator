@@ -194,17 +194,17 @@ deckfactory/fast:
 .PHONY : deckfactory/fast
 
 #=============================================================================
-# Target rules for targets named biastest
+# Target rules for targets named simulator
 
 # Build rule for target.
-biastest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 biastest
-.PHONY : biastest
+simulator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simulator
+.PHONY : simulator
 
 # fast build rule for target.
-biastest/fast:
-	$(MAKE) $(MAKESILENT) -f biastest\CMakeFiles\biastest.dir\build.make biastest/CMakeFiles/biastest.dir/build
-.PHONY : biastest/fast
+simulator/fast:
+	$(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
+.PHONY : simulator/fast
 
 #=============================================================================
 # Target rules for targets named pok-simulator
@@ -227,7 +227,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... biastest
 	@echo ... card
 	@echo ... deck
 	@echo ... deckfactory
@@ -235,6 +234,7 @@ help:
 	@echo ... player
 	@echo ... pok-simulator
 	@echo ... reference
+	@echo ... simulator
 .PHONY : help
 
 
