@@ -37,6 +37,7 @@ void reset_dealer_deck(Dealer* dealer, int new_deck_stack){
 void simulate_one_game(Dealer* dealer, std::vector<Player*>* player_seat, std::map<std::string, long>* tracker){
     int proper_deck_size = ((3*(player_seat->size() + 1)) / 52) + 1;
     reset_dealer_deck(dealer, proper_deck_size);
+    dealer->formal_shuffle();
     for (Player* player: *player_seat){
         dealer->hand_out_card(player, 2);
 
