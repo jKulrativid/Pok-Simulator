@@ -105,6 +105,10 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 6,
+			"id" : "json::@c32e42d125902da8ddbe"
+		},
+		{
 			"backtrace" : 2,
 			"id" : "reference::@cd9c8bcc9d98d2d4a4fb"
 		},
@@ -117,16 +121,16 @@
 			"id" : "deck::@51153dfb49ed6736b24c"
 		},
 		{
-			"backtrace" : 4,
-			"id" : "player::@64513e8001a81810f494"
+			"backtrace" : 6,
+			"id" : "biastest::@7e6d3b3ef309159301aa"
 		},
 		{
 			"backtrace" : 5,
 			"id" : "deckfactory::@9089e1ee940b85919b32"
 		},
 		{
-			"backtrace" : 6,
-			"id" : "biastest::@7e6d3b3ef309159301aa"
+			"backtrace" : 4,
+			"id" : "player::@64513e8001a81810f494"
 		}
 	],
 	"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
@@ -184,6 +188,10 @@
 			},
 			{
 				"fragment" : "..\\reference\\libreference.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\importlib\\json\\libjson.a",
 				"role" : "libraries"
 			},
 			{

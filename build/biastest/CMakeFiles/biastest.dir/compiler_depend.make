@@ -128,10 +128,11 @@ biastest/CMakeFiles/biastest.dir/biastest.cpp.obj: C:/Users/user/ProjeXt/pok-sim
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
-  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h \
-  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
@@ -143,17 +144,88 @@ biastest/CMakeFiles/biastest.dir/biastest.cpp.obj: C:/Users/user/ProjeXt/pok-sim
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.hpp \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp \
-  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iomanip \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/locale \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets_nonio.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets_nonio.tcc \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_conv.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/quoted_string.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/importlib/json/json.hpp \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/forward_list \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/forward_list.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/forward_list.tcc \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/valarray \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.tcc \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_before.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/slice_array.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_after.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice_array.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/mask_array.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/indirect_array.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/assert.h \
+  C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.hpp \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/deckfactory.hpp \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/biastest/biastest.hpp
 
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h:
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/biastest/biastest.cpp:
 
@@ -161,15 +233,21 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/valarray:
+
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/errno.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
 
@@ -182,6 +260,8 @@ C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/forward_list:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd:
 
@@ -203,6 +283,8 @@ C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/wchar.h:
@@ -215,7 +297,11 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_tra
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/string.h:
+
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
@@ -273,11 +359,15 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_trait
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iomanip:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
 
@@ -299,9 +389,13 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/locale.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/ctype.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
 
@@ -341,6 +435,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-ming
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/forward_list.tcc:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
@@ -349,11 +445,15 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_in
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h:
 
@@ -364,6 +464,8 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_stri
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/locale:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h:
 
@@ -381,9 +483,13 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
 
@@ -397,7 +503,11 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h:
 
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/assert.h:
+
 C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/wctype.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
 
@@ -415,17 +525,19 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h:
 
-C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h:
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
 
-C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
 
-C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h:
 
@@ -439,21 +551,111 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h:
 
-C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.hpp:
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets_nonio.h:
 
-C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp:
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
 
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/time.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h:
+
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc:
+
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets_nonio.tcc:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_conv.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/quoted_string.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/importlib/json/json.hpp:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
 
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory:
+
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
 
-C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/forward_list.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
+
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/math.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.tcc:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_before.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/slice_array.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_after.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice_array.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/mask_array.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/indirect_array.h:
+
+C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.hpp:
+
+C:/Mingw_64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp:
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/deckfactory.hpp:
 

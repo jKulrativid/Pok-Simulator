@@ -62,6 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\user\ProjeXt\pok-simulator\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: importlib/all
 all: reference/all
 all: base/all
 all: deckfactory/all
@@ -70,6 +71,7 @@ all: main/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: importlib/preinstall
 preinstall: reference/preinstall
 preinstall: base/preinstall
 preinstall: deckfactory/preinstall
@@ -78,6 +80,7 @@ preinstall: main/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: importlib/clean
 clean: reference/clean
 clean: base/clean
 clean: deckfactory/clean
@@ -182,6 +185,36 @@ deckfactory/clean: deckfactory/CMakeFiles/deckfactory.dir/clean
 .PHONY : deckfactory/clean
 
 #=============================================================================
+# Directory level rules for directory importlib
+
+# Recursive "all" directory target.
+importlib/all: importlib/json/all
+.PHONY : importlib/all
+
+# Recursive "preinstall" directory target.
+importlib/preinstall: importlib/json/preinstall
+.PHONY : importlib/preinstall
+
+# Recursive "clean" directory target.
+importlib/clean: importlib/json/clean
+.PHONY : importlib/clean
+
+#=============================================================================
+# Directory level rules for directory importlib/json
+
+# Recursive "all" directory target.
+importlib/json/all: importlib/json/CMakeFiles/json.dir/all
+.PHONY : importlib/json/all
+
+# Recursive "preinstall" directory target.
+importlib/json/preinstall:
+.PHONY : importlib/json/preinstall
+
+# Recursive "clean" directory target.
+importlib/json/clean: importlib/json/CMakeFiles/json.dir/clean
+.PHONY : importlib/json/clean
+
+#=============================================================================
 # Directory level rules for directory main
 
 # Recursive "all" directory target.
@@ -212,13 +245,39 @@ reference/clean: reference/CMakeFiles/reference.dir/clean
 .PHONY : reference/clean
 
 #=============================================================================
+# Target rules for target importlib/json/CMakeFiles/json.dir
+
+# All Build rule for target.
+importlib/json/CMakeFiles/json.dir/all:
+	$(MAKE) $(MAKESILENT) -f importlib\json\CMakeFiles\json.dir\build.make importlib/json/CMakeFiles/json.dir/depend
+	$(MAKE) $(MAKESILENT) -f importlib\json\CMakeFiles\json.dir\build.make importlib/json/CMakeFiles/json.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=11,12 "Built target json"
+.PHONY : importlib/json/CMakeFiles/json.dir/all
+
+# Build rule for subdir invocation for target.
+importlib/json/CMakeFiles/json.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 importlib/json/CMakeFiles/json.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
+.PHONY : importlib/json/CMakeFiles/json.dir/rule
+
+# Convenience name for target.
+json: importlib/json/CMakeFiles/json.dir/rule
+.PHONY : json
+
+# clean rule for target.
+importlib/json/CMakeFiles/json.dir/clean:
+	$(MAKE) $(MAKESILENT) -f importlib\json\CMakeFiles\json.dir\build.make importlib/json/CMakeFiles/json.dir/clean
+.PHONY : importlib/json/CMakeFiles/json.dir/clean
+
+#=============================================================================
 # Target rules for target reference/CMakeFiles/reference.dir
 
 # All Build rule for target.
 reference/CMakeFiles/reference.dir/all:
 	$(MAKE) $(MAKESILENT) -f reference\CMakeFiles\reference.dir\build.make reference/CMakeFiles/reference.dir/depend
 	$(MAKE) $(MAKESILENT) -f reference\CMakeFiles\reference.dir\build.make reference/CMakeFiles/reference.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=17,18 "Built target reference"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=19,20 "Built target reference"
 .PHONY : reference/CMakeFiles/reference.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,7 +358,7 @@ base/player/CMakeFiles/player.dir/all: base/card/CMakeFiles/card.dir/all
 base/player/CMakeFiles/player.dir/all: base/deck/CMakeFiles/deck.dir/all
 	$(MAKE) $(MAKESILENT) -f base\player\CMakeFiles\player.dir\build.make base/player/CMakeFiles/player.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\player\CMakeFiles\player.dir\build.make base/player/CMakeFiles/player.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=11,12,13,14 "Built target player"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=13,14,15,16 "Built target player"
 .PHONY : base/player/CMakeFiles/player.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,6 +409,7 @@ deckfactory/CMakeFiles/deckfactory.dir/clean:
 # Target rules for target biastest/CMakeFiles/biastest.dir
 
 # All Build rule for target.
+biastest/CMakeFiles/biastest.dir/all: importlib/json/CMakeFiles/json.dir/all
 biastest/CMakeFiles/biastest.dir/all: reference/CMakeFiles/reference.dir/all
 biastest/CMakeFiles/biastest.dir/all: base/card/CMakeFiles/card.dir/all
 biastest/CMakeFiles/biastest.dir/all: base/deck/CMakeFiles/deck.dir/all
@@ -361,7 +421,7 @@ biastest/CMakeFiles/biastest.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 
 # Build rule for subdir invocation for target.
 biastest/CMakeFiles/biastest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 biastest/CMakeFiles/biastest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : biastest/CMakeFiles/biastest.dir/rule
@@ -379,20 +439,21 @@ biastest/CMakeFiles/biastest.dir/clean:
 # Target rules for target main/CMakeFiles/pok-simulator.dir
 
 # All Build rule for target.
+main/CMakeFiles/pok-simulator.dir/all: importlib/json/CMakeFiles/json.dir/all
 main/CMakeFiles/pok-simulator.dir/all: reference/CMakeFiles/reference.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/card/CMakeFiles/card.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/deck/CMakeFiles/deck.dir/all
-main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
-main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 main/CMakeFiles/pok-simulator.dir/all: biastest/CMakeFiles/biastest.dir/all
+main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
+main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=15,16 "Built target pok-simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=17,18 "Built target pok-simulator"
 .PHONY : main/CMakeFiles/pok-simulator.dir/all
 
 # Build rule for subdir invocation for target.
 main/CMakeFiles/pok-simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/pok-simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : main/CMakeFiles/pok-simulator.dir/rule

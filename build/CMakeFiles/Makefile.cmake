@@ -18,6 +18,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/biastest/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/importlib/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/importlib/json/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/reference/CMakeLists.txt"
   "C:/cMake/share/cmake-3.20/Modules/CMakeCInformation.cmake"
@@ -52,6 +54,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "importlib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "importlib/json/CMakeFiles/CMakeDirectoryInformation.cmake"
   "reference/CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/card/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -64,6 +68,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "importlib/json/CMakeFiles/json.dir/DependInfo.cmake"
   "reference/CMakeFiles/reference.dir/DependInfo.cmake"
   "base/card/CMakeFiles/card.dir/DependInfo.cmake"
   "base/deck/CMakeFiles/deck.dir/DependInfo.cmake"

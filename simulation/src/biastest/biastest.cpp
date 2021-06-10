@@ -1,12 +1,33 @@
 #include <iostream>
-#include <ctime>
+#include <fstream>
 #include <map>
+#include <iomanip>
 
-#include <card.hpp>
+#include <json.hpp>
 #include <deck.hpp>
 #include <deckfactory.hpp>
 
 #include "biastest.hpp"
+
+void write_map_to_json(std::map<std::string, long> count){
+    std::string database_path = "data\\biastest.json";
+    nlohmann::json j;
+    j["shuffle_bias"] = count;
+    std::ofstream out_file(database_path);
+    out_file << std::setw(4) << j << "\n";
+    out_file.close();
+    return ;
+
+}
+
+void show_map(std::map<std::string, long> count){
+    for (auto itr=count.begin(); itr!=count.end(); itr++){
+        std::cout << itr->first << ": " << itr->second << "\n";
+
+    }
+    return ;
+
+}
 
 void simulate_shuffle_bias(long round){
     std::map<std::string, long> count = {
@@ -26,10 +47,8 @@ void simulate_shuffle_bias(long round){
         count[pattern]++;
 
     }
-    for (auto itr=count.begin(); itr!=count.end(); itr++){
-        std::cout << itr->first << ": " << itr->second << "\n";
-
-    }
+    write_map_to_json(count);
+    show_map(count);
     return ;
     
 }
@@ -51,6 +70,6 @@ void simulate_formal_shuffle_bias(long round){
 
 void biastest::formal_shuffle_bias_test(long round){
     std::cout << "<<<<<<<<<<<<<<<<<< Running Formal Shuffle Bias Test >>>>>>>>>>>>>>>>>>\n";
-    std::cout << "Simulate " << round << " round\n"
+    std::cout << "Simulate " << round << " round\n";
     
 }

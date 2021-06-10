@@ -101,6 +101,7 @@ main/pok-simulator.exe: deckfactory/libdeckfactory.a
 main/pok-simulator.exe: base/deck/libdeck.a
 main/pok-simulator.exe: base/card/libcard.a
 main/pok-simulator.exe: reference/libreference.a
+main/pok-simulator.exe: importlib/json/libjson.a
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/linklibs.rsp
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/objects1.rsp
 main/pok-simulator.exe: main/CMakeFiles/pok-simulator.dir/link.txt

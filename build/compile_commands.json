@@ -1,5 +1,10 @@
 [
 {
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/importlib/json",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/json.dir/includes_CXX.rsp -g -o CMakeFiles\\json.dir\\json.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\importlib\\json\\json.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/importlib/json/json.cpp"
+},
+{
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/reference",
   "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/reference.dir/includes_CXX.rsp -g -o CMakeFiles\\reference.dir\\rank.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\reference\\rank.cpp",
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/reference/rank.cpp"

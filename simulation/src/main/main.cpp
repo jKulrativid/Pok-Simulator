@@ -15,7 +15,7 @@ void init_program(){
 
 int main(){
     init_program();
-    long round = 10000000;
+    long round = 100;
     biastest::shuffle_bias_test(round);
 
 }

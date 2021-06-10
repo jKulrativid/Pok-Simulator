@@ -9,10 +9,11 @@
 					"childIndexes" : 
 					[
 						1,
-						2,
-						6,
-						7,
-						8
+						3,
+						4,
+						8,
+						9,
+						10
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -20,6 +21,34 @@
 					},
 					"projectIndex" : 0,
 					"source" : "."
+				},
+				{
+					"build" : "importlib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "importlib"
+				},
+				{
+					"build" : "importlib/json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "importlib/json",
+					"targetIndexes" : 
+					[
+						4
+					]
 				},
 				{
 					"build" : "reference",
@@ -32,16 +61,16 @@
 					"source" : "reference",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
 					"build" : "base",
 					"childIndexes" : 
 					[
-						3,
-						4,
-						5
+						5,
+						6,
+						7
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -57,7 +86,7 @@
 					{
 						"string" : "3.20.2"
 					},
-					"parentIndex" : 2,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "base/card",
 					"targetIndexes" : 
@@ -71,7 +100,7 @@
 					{
 						"string" : "3.20.2"
 					},
-					"parentIndex" : 2,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "base/deck",
 					"targetIndexes" : 
@@ -85,12 +114,12 @@
 					{
 						"string" : "3.20.2"
 					},
-					"parentIndex" : 2,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "base/player",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -132,7 +161,7 @@
 					"source" : "main",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				}
 			],
@@ -150,7 +179,9 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10
 					],
 					"name" : "pok-simulator",
 					"targetIndexes" : 
@@ -161,56 +192,64 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 9,
 					"id" : "biastest::@7e6d3b3ef309159301aa",
-					"jsonFile" : "target-biastest-Debug-8c21ed9c4c5a573af87e.json",
+					"jsonFile" : "target-biastest-Debug-b866cce0a6bb001d3e09.json",
 					"name" : "biastest",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 5,
 					"id" : "card::@bbf7c4131e2feb56dbe2",
 					"jsonFile" : "target-card-Debug-913d489d02f33923c395.json",
 					"name" : "card",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 4,
+					"directoryIndex" : 6,
 					"id" : "deck::@51153dfb49ed6736b24c",
 					"jsonFile" : "target-deck-Debug-0b81a1d3b60e80bb3212.json",
 					"name" : "deck",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 8,
 					"id" : "deckfactory::@9089e1ee940b85919b32",
 					"jsonFile" : "target-deckfactory-Debug-dee35fa2ce6dbd998065.json",
 					"name" : "deckfactory",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 2,
+					"id" : "json::@c32e42d125902da8ddbe",
+					"jsonFile" : "target-json-Debug-ade70873f3164f2e261b.json",
+					"name" : "json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
 					"id" : "player::@64513e8001a81810f494",
 					"jsonFile" : "target-player-Debug-e368ed7d61b533ffc976.json",
 					"name" : "player",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 10,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-1c2cd33952f777803761.json",
+					"jsonFile" : "target-pok-simulator-Debug-a774cb08245d3d10d70a.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
+					"directoryIndex" : 3,
 					"id" : "reference::@cd9c8bcc9d98d2d4a4fb",
 					"jsonFile" : "target-reference-Debug-c99ab75ae710e8525f7f.json",
 					"name" : "reference",

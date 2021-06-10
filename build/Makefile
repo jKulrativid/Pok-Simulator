@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named json
+
+# Build rule for target.
+json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 json
+.PHONY : json
+
+# fast build rule for target.
+json/fast:
+	$(MAKE) $(MAKESILENT) -f importlib\json\CMakeFiles\json.dir\build.make importlib/json/CMakeFiles/json.dir/build
+.PHONY : json/fast
+
+#=============================================================================
 # Target rules for targets named reference
 
 # Build rule for target.
@@ -218,6 +231,7 @@ help:
 	@echo ... card
 	@echo ... deck
 	@echo ... deckfactory
+	@echo ... json
 	@echo ... player
 	@echo ... pok-simulator
 	@echo ... reference

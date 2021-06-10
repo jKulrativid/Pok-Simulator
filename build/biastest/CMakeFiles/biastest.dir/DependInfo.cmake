@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Users/user/ProjeXt/pok-simulator/build/importlib/json/CMakeFiles/json.dir/DependInfo.cmake"
   "C:/Users/user/ProjeXt/pok-simulator/build/base/card/CMakeFiles/card.dir/DependInfo.cmake"
   "C:/Users/user/ProjeXt/pok-simulator/build/base/deck/CMakeFiles/deck.dir/DependInfo.cmake"
   "C:/Users/user/ProjeXt/pok-simulator/build/deckfactory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
