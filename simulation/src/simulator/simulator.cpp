@@ -35,13 +35,44 @@ void setup_dealer(Dealer* dealer){
 
 }
 
+void all_player_first_pick(Dealer* dealer, std::vector<Player*> seat){
+    const int card_amount = config::first_pick_amount;
+    dealer->hand_out_card(dealer, card_amount);
+    for (Player* player: seat){
+        dealer->hand_out_card(player, card_amount);
+    }
+    return ;
+
+}
+
+void play_round_one(Dealer* dealer, std::vector<Player*>& seat){
+    int player_score;
+    int dealer_score = dealer->get_score();
+    for (Player* player: seat){
+        player_score = player->get_score();
+        if (dealer_score > player_score){
+            // TODO dealer win
+        } else if (dealer_score < player_score) {
+            // TODO player win
+        } else {
+            // TODO draw
+        }
+        // TODO
+
+
+    }
+    return ;
+
+}
+
 void simulate_one_game(){
     Dealer* dealer = new Dealer("Dealer");
     std::vector<Player*> seat = {};
     setup_dealer(dealer);
     setup_players(seat);
-    // TODO
-
+    all_player_first_pick(dealer, seat);
+    play_round_one(dealer, seat);
+    
 }
 
 void simulator::simulate(){
@@ -49,5 +80,6 @@ void simulator::simulate(){
     for (long i=0; i<round; i++){
         simulate_one_game();
     }
+    return ;
     
 }
