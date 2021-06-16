@@ -83,17 +83,51 @@ simulator/CMakeFiles/simulator.dir/simulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/simulator.cpp.s"
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\simulator.cpp -o CMakeFiles\simulator.dir\simulator.cpp.s
 
+simulator/CMakeFiles/simulator.dir/logic.cpp.obj: simulator/CMakeFiles/simulator.dir/flags.make
+simulator/CMakeFiles/simulator.dir/logic.cpp.obj: simulator/CMakeFiles/simulator.dir/includes_CXX.rsp
+simulator/CMakeFiles/simulator.dir/logic.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/logic.cpp
+simulator/CMakeFiles/simulator.dir/logic.cpp.obj: simulator/CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object simulator/CMakeFiles/simulator.dir/logic.cpp.obj"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT simulator/CMakeFiles/simulator.dir/logic.cpp.obj -MF CMakeFiles\simulator.dir\logic.cpp.obj.d -o CMakeFiles\simulator.dir\logic.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\logic.cpp
+
+simulator/CMakeFiles/simulator.dir/logic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/logic.cpp.i"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\logic.cpp > CMakeFiles\simulator.dir\logic.cpp.i
+
+simulator/CMakeFiles/simulator.dir/logic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/logic.cpp.s"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\logic.cpp -o CMakeFiles\simulator.dir\logic.cpp.s
+
+simulator/CMakeFiles/simulator.dir/result.cpp.obj: simulator/CMakeFiles/simulator.dir/flags.make
+simulator/CMakeFiles/simulator.dir/result.cpp.obj: simulator/CMakeFiles/simulator.dir/includes_CXX.rsp
+simulator/CMakeFiles/simulator.dir/result.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/result.cpp
+simulator/CMakeFiles/simulator.dir/result.cpp.obj: simulator/CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object simulator/CMakeFiles/simulator.dir/result.cpp.obj"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT simulator/CMakeFiles/simulator.dir/result.cpp.obj -MF CMakeFiles\simulator.dir\result.cpp.obj.d -o CMakeFiles\simulator.dir\result.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\result.cpp
+
+simulator/CMakeFiles/simulator.dir/result.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/result.cpp.i"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\result.cpp > CMakeFiles\simulator.dir\result.cpp.i
+
+simulator/CMakeFiles/simulator.dir/result.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/result.cpp.s"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\result.cpp -o CMakeFiles\simulator.dir\result.cpp.s
+
 # Object files for target simulator
 simulator_OBJECTS = \
-"CMakeFiles/simulator.dir/simulator.cpp.obj"
+"CMakeFiles/simulator.dir/simulator.cpp.obj" \
+"CMakeFiles/simulator.dir/logic.cpp.obj" \
+"CMakeFiles/simulator.dir/result.cpp.obj"
 
 # External object files for target simulator
 simulator_EXTERNAL_OBJECTS =
 
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/simulator.cpp.obj
+simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/logic.cpp.obj
+simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/result.cpp.obj
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/build.make
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsimulator.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libsimulator.a"
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && $(CMAKE_COMMAND) -P CMakeFiles\simulator.dir\cmake_clean_target.cmake
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\simulator.dir\link.txt --verbose=$(VERBOSE)
 

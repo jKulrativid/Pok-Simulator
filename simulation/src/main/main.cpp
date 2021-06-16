@@ -17,12 +17,7 @@ void init_program(){
 
 int main(){
     init_program();
-    long round;
-    int player_amount;
-    std::cout << "Round: ";
-    std::cin >> round;
-    std::cout << "Player Amount: ";
-    std::cin >> player_amount;
-    simulator::run(round, player_amount);
-    
+    long round = 1;
+    int player_amount = 3;
+    simulator::simulate();
 }

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/simulator.dir/logic.cpp.obj"
+  "CMakeFiles/simulator.dir/logic.cpp.obj.d"
+  "CMakeFiles/simulator.dir/result.cpp.obj"
+  "CMakeFiles/simulator.dir/result.cpp.obj.d"
   "CMakeFiles/simulator.dir/simulator.cpp.obj"
   "CMakeFiles/simulator.dir/simulator.cpp.obj.d"
   "libsimulator.a"

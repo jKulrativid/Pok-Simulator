@@ -55,6 +55,16 @@
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/simulator.cpp"
 },
 {
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/simulator",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\simulator.dir\\logic.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\simulator\\logic.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/logic.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/simulator",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\simulator.dir\\result.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\simulator\\result.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/result.cpp"
+},
+{
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/main",
   "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/pok-simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\pok-simulator.dir\\main.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\main\\main.cpp",
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/main.cpp"

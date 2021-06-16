@@ -1,114 +1,183 @@
 #include <iostream>
-#include <vector>
 #include <map>
 #include <string>
 
-#include <player.hpp>
 #include <deckfactory.hpp>
 
 #include "simulator.hpp"
+#include "config.hpp"
+#include "logic.hpp"
 
-void assign_player_to_tracker(Dealer* dealer, std::vector<Player*>* player_seat, std::map<std::string, long>* tracker){
-    (*tracker)[dealer->get_name()] = 0;
-    for (Player* player: *player_seat){
-        (*tracker)[player->get_name()] = 0;
-}
-    return ;
-
-}
-
-void add_player_to_seat(std::vector<Player*>* player_seat, int size){
-    for (int i=1; i<=size; i++){
-        Player* new_player = new Player("Player " + std::to_string(i));
-        player_seat->push_back(new_player);
-
+void setup_players(std::vector<Player*>& seat){
+    int player_amount = config::player_amount;
+    for (int i=1; i<=player_amount; i++){
+        std::string player_number = std::to_string(i);
+        Player* new_player = new Player("Player" + player_number); 
     }
     return ;
 
 }
 
-void reset_dealer_deck(Dealer* dealer, int new_deck_stack){
-    DeckFactory df;
-    dealer->set_deck(df.get_new_deck(new_deck_stack));
+void setup_dealer_deck(Dealer* dealer){
+    DeckFactory* df = new DeckFactory();
+    int stack_amount = logic::get_stack_amount();
+    Deck* dealer_deck = df->get_new_deck(stack_amount);
+    dealer->set_deck(dealer_deck);
+    return ;
+     
+}
+
+void setup_dealer(Dealer* dealer){
+    dealer = new Dealer("Dealer");
+    setup_dealer_deck(dealer);
     return ;
 
 }
 
-void simulate_one_game(Dealer* dealer, std::vector<Player*>* player_seat, std::map<std::string, long>* tracker){
-    int proper_deck_size = ((3*(player_seat->size() + 1)) / 52) + 1;
-    reset_dealer_deck(dealer, proper_deck_size);
-    dealer->formal_shuffle();
-    for (Player* player: *player_seat){
-        dealer->hand_out_card(player, 2);
+void all_player_first_pick(Dealer* dealer, std::vector<Player*>& seat){
+    const int card_amount = config::first_pick_amount;
+    for (Player* player: seat){
+        dealer->hand_out_card(player, card_amount);
+    }
+    dealer->hand_out_card(dealer, card_amount);
+    return ;
+
+}
+
+void player_to_continue_seat(Player* player){
+    simulator::continue_seat.push_back(player);
+    return ;
+
+}
+
+void play_round_one(Dealer* dealer, std::vector<Player*>& seat){
+    int player_score, player_excess_score;
+    int dealer_score = dealer->get_score();
+    bool dealer_pok = dealer_score >= 8 ? true: false;
+    bool player_pok;
+    for (Player* player: seat){
+        player_score = player->get_score();
+        player_pok = player_score >= 8 ? true: false;
+        if (player_pok && dealer_pok){
+            if (player_score > dealer_score){
+                // player_win
+            }
+            else if (dealer_score > player_score){
+                // dealer win
+            } else {
+                // draw
+            }
+        }
+        else if (player_pok){
+            // TODO player always win here
+        } 
+        else if (dealer_pok){
+            // TODO dealer always win here
+        } 
+        else{
+            player_to_continue_seat(player);
+
+        }
+        
+    }
+    return ;
+
+}
+
+void all_player_second_pick(Dealer* dealer, std::vector<Player*>& continue_seat){
+    const int card_amount = config::second_pick_amount;
+    bool dealer_pok = dealer->get_score() >= 8 ? true: false;
+    if (dealer_pok){
+        return ;
 
     }
     int dealer_score = dealer->get_score();
     int player_score;
-    std::vector<Player*> continue_seat = {};
-    for (Player* player: *player_seat){
+    for (Player* player: continue_seat){
         player_score = player->get_score();
-        if (dealer_score > player_score){
-            (*tracker)[dealer->get_name()] += 1;
-            
-        } else if (dealer_score < player_score){
-            (*tracker)[player->get_name()] += 1;
+        if (strategy::recommend_to_pick(player_score, dealer_score)){
+            dealer->hand_out_card(player, card_amount);
 
-        }  // else draw
-        
-        if (player_score < 8){
-            continue_seat.push_back(player);
-
-        }
-
-    }
-    if (dealer_score < 8){
-        for (Player* player: *player_seat){
-            if (player->get_score() < 6){
-                dealer->hand_out_card(player, 1);
-
-            }
-        }
-        dealer_score = dealer->get_score();
-        for (Player* player: *player_seat){
-            player_score = player->get_score();
-            if (dealer_score > player_score){
-                (*tracker)[dealer->get_name()] += 1;
-
-            } else if (dealer_score < player_score){
-                (*tracker)[player->get_name()] += 1;
-
-            }
         }
     }
-    for (Player* player: *player_seat){
+    if (strategy::recommend_to_pick(dealer_score, dealer_score)){
+        dealer->hand_out_card(dealer, card_amount);
+
+    }
+    return ;
+
+}
+
+void play_round_two(Dealer* dealer, std::vector<Player*>& continue_seat){
+    bool dealer_pok = dealer->get_score() >= 8 ? true: false;
+    if (dealer_pok){
+        return ;
+       
+    }
+    int dealer_score, player_score;
+    dealer_score = dealer->get_score();
+    for (Player* player: continue_seat){
+        player_score = player->get_score();
+        if (player_score > dealer_score){
+            // player_win
+        }
+        else if (dealer_score < player_score){
+            // dealer win
+        }
+        else {
+            // draw
+        }
+    }
+    return ;
+
+}
+
+void clean_dealer_hand(Dealer* dealer){
+    dealer->reset_hand();
+    return ;
+
+}
+
+void clean_all_player_hand(std::vector<Player*>& seat){
+    for (Player* player: seat){
         player->reset_hand();
 
     }
     return ;
-    
+
 }
 
-void show_result(std::map<std::string, long>* tracker){
-    for (auto itr=tracker->begin(); itr!=tracker->end(); itr++){
-        std::cout << itr->first << ": " << itr->second << "\n";
-
-    }
+void reset_continue_seat(std::vector<Player*>& continue_seat){
+    continue_seat.clear();
     return ;
 
 }
 
-void simulator::run(long round, int player_amount){
-    std::vector<Player*> player_seat = {};
-    Dealer* dealer = new Dealer("Dealer");
-    player_seat.push_back(dealer);
-    add_player_to_seat(&player_seat, player_amount);
-    std::map<std::string, long> tracker;
-    assign_player_to_tracker(dealer, &player_seat, &tracker);
-    for (long round_count=0; round_count<round; round_count++){
-        simulate_one_game(dealer, &player_seat, &tracker);
+void before_game(Dealer* dealer, std::vector<Player*>& seat, std::vector<Player*>& continue_seat){
+    clean_dealer_hand(dealer);
+    clean_all_player_hand(seat);
+    reset_continue_seat(continue_seat);
+    return ;
 
+}
+
+void simulate_one_game(){
+    before_game(simulator::dealer, simulator::seat, simulator::continue_seat);
+    all_player_first_pick(simulator::dealer, simulator::seat);
+    play_round_one(simulator::dealer, simulator::seat);
+    all_player_second_pick(simulator::dealer, simulator::seat);
+    play_round_two(simulator::dealer, simulator::continue_seat);
+    return ;
+    
+}
+
+void simulator::simulate(){
+    long round = config::round;
+    setup_players(simulator::seat);
+    setup_dealer(simulator::dealer);
+    for (long i=0; i<round; i++){
+        simulate_one_game();
     }
-    show_result(&tracker);
     return ;
     
 }
