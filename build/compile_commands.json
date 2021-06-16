@@ -50,6 +50,11 @@
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/deckfactory.cpp"
 },
 {
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/finance",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/finance.dir/includes_CXX.rsp -g -o CMakeFiles\\finance.dir\\finance.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\finance\\finance.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/finance/finance.cpp"
+},
+{
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/simulator",
   "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\simulator.dir\\simulator.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\simulator\\simulator.cpp",
   "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/simulator.cpp"

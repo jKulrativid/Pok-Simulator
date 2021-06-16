@@ -22,6 +22,9 @@ C:/Users/user/ProjeXt/pok-simulator/build/base/player/CMakeFiles/rebuild_cache.d
 C:/Users/user/ProjeXt/pok-simulator/build/deckfactory/CMakeFiles/deckfactory.dir
 C:/Users/user/ProjeXt/pok-simulator/build/deckfactory/CMakeFiles/edit_cache.dir
 C:/Users/user/ProjeXt/pok-simulator/build/deckfactory/CMakeFiles/rebuild_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/finance/CMakeFiles/rebuild_cache.dir
+C:/Users/user/ProjeXt/pok-simulator/build/finance/CMakeFiles/finance.dir
+C:/Users/user/ProjeXt/pok-simulator/build/finance/CMakeFiles/edit_cache.dir
 C:/Users/user/ProjeXt/pok-simulator/build/simulator/CMakeFiles/rebuild_cache.dir
 C:/Users/user/ProjeXt/pok-simulator/build/simulator/CMakeFiles/simulator.dir
 C:/Users/user/ProjeXt/pok-simulator/build/simulator/CMakeFiles/edit_cache.dir

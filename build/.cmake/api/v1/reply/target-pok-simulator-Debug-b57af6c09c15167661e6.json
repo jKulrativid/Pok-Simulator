@@ -117,16 +117,16 @@
 			"id" : "deck::@51153dfb49ed6736b24c"
 		},
 		{
+			"backtrace" : 6,
+			"id" : "simulator::@f1f3e991e10b5af6b966"
+		},
+		{
 			"backtrace" : 5,
 			"id" : "deckfactory::@9089e1ee940b85919b32"
 		},
 		{
 			"backtrace" : 4,
 			"id" : "player::@64513e8001a81810f494"
-		},
-		{
-			"backtrace" : 6,
-			"id" : "simulator::@f1f3e991e10b5af6b966"
 		}
 	],
 	"id" : "pok-simulator::@15c4a824ab2728a3f5e7",

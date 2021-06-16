@@ -13,7 +13,8 @@
 						4,
 						8,
 						9,
-						10
+						10,
+						11
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -47,7 +48,7 @@
 					"source" : "importlib/json",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -61,7 +62,7 @@
 					"source" : "reference",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -119,7 +120,7 @@
 					"source" : "base/player",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -137,6 +138,20 @@
 					]
 				},
 				{
+					"build" : "finance",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "finance",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
 					"build" : "simulator",
 					"minimumCMakeVersion" : 
 					{
@@ -147,7 +162,7 @@
 					"source" : "simulator",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -161,7 +176,7 @@
 					"source" : "main",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				}
 			],
@@ -181,7 +196,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					],
 					"name" : "pok-simulator",
 					"targetIndexes" : 
@@ -193,7 +209,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -221,6 +238,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 9,
+					"id" : "finance::@cb5059029e056767e58f",
+					"jsonFile" : "target-finance-Debug-0fa0109e10298f6dbd12.json",
+					"name" : "finance",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "json::@c32e42d125902da8ddbe",
 					"jsonFile" : "target-json-Debug-ade70873f3164f2e261b.json",
@@ -235,9 +259,9 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 10,
+					"directoryIndex" : 11,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-800c337903b232f72239.json",
+					"jsonFile" : "target-pok-simulator-Debug-b57af6c09c15167661e6.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
@@ -249,7 +273,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "simulator::@f1f3e991e10b5af6b966",
 					"jsonFile" : "target-simulator-Debug-6051b91a270e574a9dba.json",
 					"name" : "simulator",
