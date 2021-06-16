@@ -34,12 +34,18 @@ void setup_dealer(Dealer* dealer){
 
 }
 
-void all_player_first_pick(Dealer* dealer, std::vector<Player*> seat){
+void all_player_first_pick(Dealer* dealer, std::vector<Player*>& seat){
     const int card_amount = config::first_pick_amount;
-    dealer->hand_out_card(dealer, card_amount);
     for (Player* player: seat){
         dealer->hand_out_card(player, card_amount);
     }
+    dealer->hand_out_card(dealer, card_amount);
+    return ;
+
+}
+
+void player_to_continue_seat(Player* player){
+    simulator::continue_seat.push_back(player);
     return ;
 
 }
@@ -53,36 +59,115 @@ void play_round_one(Dealer* dealer, std::vector<Player*>& seat){
         player_score = player->get_score();
         player_pok = player_score >= 8 ? true: false;
         if (player_pok && dealer_pok){
-            // TODO need to compare more
+            if (player_score > dealer_score){
+                // player_win
+            }
+            else if (dealer_score > player_score){
+                // dealer win
+            } else {
+                // draw
+            }
         }
         else if (player_pok){
             // TODO player always win here
         } 
         else if (dealer_pok){
             // TODO dealer always win here
+        } 
+        else{
+            player_to_continue_seat(player);
+
         }
         
     }
-    // TODO more code
     return ;
 
 }
 
-void all_player_second_pick(Dealer* dealer, std::vector<Player*> seat){
+void all_player_second_pick(Dealer* dealer, std::vector<Player*>& continue_seat){
+    const int card_amount = config::second_pick_amount;
+    bool dealer_pok = dealer->get_score() >= 8 ? true: false;
+    if (dealer_pok){
+        return ;
+
+    }
+    int dealer_score = dealer->get_score();
+    int player_score;
+    for (Player* player: continue_seat){
+        player_score = player->get_score();
+        if (strategy::recommend_to_pick(player_score, dealer_score)){
+            dealer->hand_out_card(player, card_amount);
+
+        }
+    }
+    if (strategy::recommend_to_pick(dealer_score, dealer_score)){
+        dealer->hand_out_card(dealer, card_amount);
+
+    }
     return ;
 
 }
 
-void play_round_two(Dealer* dealer, std::vector<Player*> seat){
+void play_round_two(Dealer* dealer, std::vector<Player*>& continue_seat){
+    bool dealer_pok = dealer->get_score() >= 8 ? true: false;
+    if (dealer_pok){
+        return ;
+       
+    }
+    int dealer_score, player_score;
+    dealer_score = dealer->get_score();
+    for (Player* player: continue_seat){
+        player_score = player->get_score();
+        if (player_score > dealer_score){
+            // player_win
+        }
+        else if (dealer_score < player_score){
+            // dealer win
+        }
+        else {
+            // draw
+        }
+    }
+    return ;
+
+}
+
+void clean_dealer_hand(Dealer* dealer){
+    dealer->reset_hand();
+    return ;
+
+}
+
+void clean_all_player_hand(std::vector<Player*>& seat){
+    for (Player* player: seat){
+        player->reset_hand();
+
+    }
+    return ;
+
+}
+
+void reset_continue_seat(std::vector<Player*>& continue_seat){
+    continue_seat.clear();
+    return ;
+
+}
+
+void before_game(Dealer* dealer, std::vector<Player*>& seat, std::vector<Player*>& continue_seat){
+    clean_dealer_hand(dealer);
+    clean_all_player_hand(seat);
+    reset_continue_seat(continue_seat);
     return ;
 
 }
 
 void simulate_one_game(){
+    before_game(simulator::dealer, simulator::seat, simulator::continue_seat);
     all_player_first_pick(simulator::dealer, simulator::seat);
     play_round_one(simulator::dealer, simulator::seat);
     all_player_second_pick(simulator::dealer, simulator::seat);
-    play_round_two(simulator::dealer, simulator::seat);
+    play_round_two(simulator::dealer, simulator::continue_seat);
+    return ;
     
 }
 
