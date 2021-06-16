@@ -1,9 +1,7 @@
 #include <iostream>
-#include <vector>
 #include <map>
 #include <string>
 
-#include <player.hpp>
 #include <deckfactory.hpp>
 
 #include "simulator.hpp"
@@ -30,6 +28,7 @@ void setup_dealer_deck(Dealer* dealer){
 }
 
 void setup_dealer(Dealer* dealer){
+    dealer = new Dealer("Dealer");
     setup_dealer_deck(dealer);
     return ;
 
@@ -46,37 +45,51 @@ void all_player_first_pick(Dealer* dealer, std::vector<Player*> seat){
 }
 
 void play_round_one(Dealer* dealer, std::vector<Player*>& seat){
-    int player_score;
+    int player_score, player_excess_score;
     int dealer_score = dealer->get_score();
+    bool dealer_pok = dealer_score >= 8 ? true: false;
+    bool player_pok;
     for (Player* player: seat){
         player_score = player->get_score();
-        if (dealer_score > player_score){
-            // TODO dealer win
-        } else if (dealer_score < player_score) {
-            // TODO player win
-        } else {
-            // TODO draw
+        player_pok = player_score >= 8 ? true: false;
+        if (player_pok && dealer_pok){
+            // TODO need to compare more
         }
-        // TODO
-
-
+        else if (player_pok){
+            // TODO player always win here
+        } 
+        else if (dealer_pok){
+            // TODO dealer always win here
+        }
+        
     }
+    // TODO more code
+    return ;
+
+}
+
+void all_player_second_pick(Dealer* dealer, std::vector<Player*> seat){
+    return ;
+
+}
+
+void play_round_two(Dealer* dealer, std::vector<Player*> seat){
     return ;
 
 }
 
 void simulate_one_game(){
-    Dealer* dealer = new Dealer("Dealer");
-    std::vector<Player*> seat = {};
-    setup_dealer(dealer);
-    setup_players(seat);
-    all_player_first_pick(dealer, seat);
-    play_round_one(dealer, seat);
+    all_player_first_pick(simulator::dealer, simulator::seat);
+    play_round_one(simulator::dealer, simulator::seat);
+    all_player_second_pick(simulator::dealer, simulator::seat);
+    play_round_two(simulator::dealer, simulator::seat);
     
 }
 
 void simulator::simulate(){
     long round = config::round;
+    setup_players(simulator::seat);
+    setup_dealer(simulator::dealer);
     for (long i=0; i<round; i++){
         simulate_one_game();
     }

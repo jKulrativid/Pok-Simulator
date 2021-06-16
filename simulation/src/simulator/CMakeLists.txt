@@ -4,7 +4,7 @@ add_library(
     simulator.cpp
     config.hpp
     logic.hpp
-    locig.cpp
+    logic.cpp
     result.hpp
     result.cpp
 )

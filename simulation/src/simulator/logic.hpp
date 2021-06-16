@@ -6,4 +6,9 @@ namespace logic{
 
 }
 
+namespace strategy{
+	bool require_to_pick(int player_score, int dealer_score);
+	
+}
+
 #endif

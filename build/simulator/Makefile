@@ -129,6 +129,54 @@ simulator/fast:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
 .PHONY : simulator/fast
 
+logic.obj: logic.cpp.obj
+.PHONY : logic.obj
+
+# target to build an object file
+logic.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/logic.cpp.obj
+.PHONY : logic.cpp.obj
+
+logic.i: logic.cpp.i
+.PHONY : logic.i
+
+# target to preprocess a source file
+logic.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/logic.cpp.i
+.PHONY : logic.cpp.i
+
+logic.s: logic.cpp.s
+.PHONY : logic.s
+
+# target to generate assembly for a file
+logic.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/logic.cpp.s
+.PHONY : logic.cpp.s
+
+result.obj: result.cpp.obj
+.PHONY : result.obj
+
+# target to build an object file
+result.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/result.cpp.obj
+.PHONY : result.cpp.obj
+
+result.i: result.cpp.i
+.PHONY : result.i
+
+# target to preprocess a source file
+result.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/result.cpp.i
+.PHONY : result.cpp.i
+
+result.s: result.cpp.s
+.PHONY : result.s
+
+# target to generate assembly for a file
+result.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/result.cpp.s
+.PHONY : result.cpp.s
+
 simulator.obj: simulator.cpp.obj
 .PHONY : simulator.obj
 
@@ -162,6 +210,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... simulator
+	@echo ... logic.obj
+	@echo ... logic.i
+	@echo ... logic.s
+	@echo ... result.obj
+	@echo ... result.i
+	@echo ... result.s
 	@echo ... simulator.obj
 	@echo ... simulator.i
 	@echo ... simulator.s

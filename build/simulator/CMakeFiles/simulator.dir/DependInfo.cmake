@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/logic.cpp" "simulator/CMakeFiles/simulator.dir/logic.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/logic.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/result.cpp" "simulator/CMakeFiles/simulator.dir/result.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/result.cpp.obj.d"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/simulator.cpp" "simulator/CMakeFiles/simulator.dir/simulator.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/simulator.cpp.obj.d"
   )
 
