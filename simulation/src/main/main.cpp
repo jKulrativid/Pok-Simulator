@@ -20,4 +20,5 @@ int main(){
     long round = 1;
     int player_amount = 3;
     simulator::simulate();
+    
 }

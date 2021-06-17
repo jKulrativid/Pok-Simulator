@@ -1,12 +1,13 @@
 add_library(
     simulator
-    simulator.hpp
-    simulator.cpp
     config.hpp
-    logic.hpp
-    logic.cpp
+    config.cpp
+    strategy.hpp
+    strategy.cpp
     result.hpp
     result.cpp
+    simulator.hpp
+    simulator.cpp
 )
 
 target_include_directories(simulator PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")

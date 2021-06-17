@@ -261,7 +261,7 @@
 				{
 					"directoryIndex" : 11,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-b57af6c09c15167661e6.json",
+					"jsonFile" : "target-pok-simulator-Debug-d063d882b52c4f39daaa.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
@@ -275,7 +275,7 @@
 				{
 					"directoryIndex" : 10,
 					"id" : "simulator::@f1f3e991e10b5af6b966",
-					"jsonFile" : "target-simulator-Debug-6051b91a270e574a9dba.json",
+					"jsonFile" : "target-simulator-Debug-0b0aaddef4ee80fb47a0.json",
 					"name" : "simulator",
 					"projectIndex" : 0
 				}
