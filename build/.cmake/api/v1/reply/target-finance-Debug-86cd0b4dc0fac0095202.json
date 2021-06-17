@@ -12,6 +12,7 @@
 		"commands" : 
 		[
 			"add_library",
+			"target_link_libraries",
 			"target_include_directories"
 		],
 		"files" : 
@@ -32,6 +33,24 @@
 			{
 				"command" : 1,
 				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
 				"line" : 7,
 				"parent" : 0
 			}
@@ -49,8 +68,20 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 5,
 					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/finance"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player"
 				}
 			],
 			"language" : "CXX",
@@ -58,6 +89,25 @@
 			[
 				1
 			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "reference::@cd9c8bcc9d98d2d4a4fb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "card::@bbf7c4131e2feb56dbe2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "deck::@51153dfb49ed6736b24c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "player::@64513e8001a81810f494"
 		}
 	],
 	"id" : "finance::@cb5059029e056767e58f",

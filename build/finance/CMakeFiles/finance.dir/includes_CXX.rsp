@@ -1,1 +1,1 @@
--IC:/Users/user/ProjeXt/pok-simulator/simulation/src/finance
+-IC:/Users/user/ProjeXt/pok-simulator/simulation/src/finance -IC:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card -IC:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck -IC:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player

@@ -427,7 +427,10 @@ deckfactory/CMakeFiles/deckfactory.dir/clean:
 # Target rules for target finance/CMakeFiles/finance.dir
 
 # All Build rule for target.
-finance/CMakeFiles/finance.dir/all:
+finance/CMakeFiles/finance.dir/all: reference/CMakeFiles/reference.dir/all
+finance/CMakeFiles/finance.dir/all: base/card/CMakeFiles/card.dir/all
+finance/CMakeFiles/finance.dir/all: base/deck/CMakeFiles/deck.dir/all
+finance/CMakeFiles/finance.dir/all: base/player/CMakeFiles/player.dir/all
 	$(MAKE) $(MAKESILENT) -f finance\CMakeFiles\finance.dir\build.make finance/CMakeFiles/finance.dir/depend
 	$(MAKE) $(MAKESILENT) -f finance\CMakeFiles\finance.dir\build.make finance/CMakeFiles/finance.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=9,10 "Built target finance"
@@ -435,7 +438,7 @@ finance/CMakeFiles/finance.dir/all:
 
 # Build rule for subdir invocation for target.
 finance/CMakeFiles/finance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 finance/CMakeFiles/finance.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : finance/CMakeFiles/finance.dir/rule

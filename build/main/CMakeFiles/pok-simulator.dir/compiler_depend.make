@@ -240,7 +240,8 @@ main/CMakeFiles/pok-simulator.dir/main.cpp.obj: C:/Users/user/ProjeXt/pok-simula
   C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/player.hpp \
   C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/card/card.hpp \
-  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp \
+  C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/config.hpp
 
 
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h:
@@ -714,3 +715,5 @@ C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector
 C:/Mingw_64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
 
 C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/deck.hpp:
+
+C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/config.hpp:
