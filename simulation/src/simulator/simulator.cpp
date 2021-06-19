@@ -48,7 +48,7 @@ void setup_dealer(){
 }
 
 void all_player_first_pick(){
-    const int card_amount = config::first_pick_amount;
+    const int card_amount = config::FIRST_PICK_AMOUNT;
     for (Player* player: seat){
         dealer->hand_out_card(player, card_amount);
     }
@@ -66,7 +66,7 @@ void player_to_continue_seat(Player* player){
 void play_round_one(){
     int player_score;
     int dealer_score = dealer->get_score();
-    const int pok = config::pok;
+    const int pok = config::POK;
     bool dealer_pok = dealer_score >= pok ? true: false;
     bool player_pok;
     for (Player* player: seat){
@@ -99,8 +99,8 @@ void play_round_one(){
 }
 
 void all_player_second_pick(){
-    const int card_amount = config::second_pick_amount;
-    const int pok = config::pok;
+    const int card_amount = config::SECOND_PICK_AMOUNT;
+    const int pok = config::POK;
     bool dealer_pok = dealer->get_score() >= pok ? true: false;
     if (dealer_pok){
         return ;
@@ -124,7 +124,7 @@ void all_player_second_pick(){
 }
 
 void play_round_two(){
-    const int pok = config::pok;
+    const int pok = config::POK;
     bool dealer_pok = dealer->get_score() >= pok ? true: false;
     if (dealer_pok){
         return ;

@@ -2,9 +2,9 @@
 #define CONFIG_HPP
 
 namespace config{
-	const int pok = 8;  /* see pokdeng rule */
-	const int first_pick_amount = 2;
-	const int second_pick_amount = 1;
+	const int POK = 8;  /* see pokdeng rule */
+	const int FIRST_PICK_AMOUNT = 2;
+	const int SECOND_PICK_AMOUNT = 1;
 
 	void show_setup(); // show in console
 
