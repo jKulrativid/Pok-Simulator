@@ -14,11 +14,6 @@ namespace compete_result{
 	void show_result();
 
 }
-
-namespace card_history{
-	void add_player(Player* player);
-	void remove_player(Player* player);
-}
 /*  RECORDER MAP STRUCTURE
 	{
 		"Player Name": {
@@ -28,5 +23,14 @@ namespace card_history{
 		}
 	}
 */
+
+namespace card_history{
+	void add_player(Player* player);
+	void remove_player(Player* player);
+	void update_player_history(Player* player);
+	void show_result();
+
+}
+
 
 #endif

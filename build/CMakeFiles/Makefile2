@@ -463,12 +463,12 @@ simulator/CMakeFiles/simulator.dir/all: base/player/CMakeFiles/player.dir/all
 simulator/CMakeFiles/simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 	$(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=21,22,23,24,25 "Built target simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=21,22,23,24,25,26 "Built target simulator"
 .PHONY : simulator/CMakeFiles/simulator.dir/all
 
 # Build rule for subdir invocation for target.
 simulator/CMakeFiles/simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simulator/CMakeFiles/simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : simulator/CMakeFiles/simulator.dir/rule
@@ -489,8 +489,8 @@ simulator/CMakeFiles/simulator.dir/clean:
 main/CMakeFiles/pok-simulator.dir/all: reference/CMakeFiles/reference.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/card/CMakeFiles/card.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/deck/CMakeFiles/deck.dir/all
-main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
 main/CMakeFiles/pok-simulator.dir/all: simulator/CMakeFiles/simulator.dir/all
+main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
 main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
@@ -499,7 +499,7 @@ main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/al
 
 # Build rule for subdir invocation for target.
 main/CMakeFiles/pok-simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/pok-simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : main/CMakeFiles/pok-simulator.dir/rule

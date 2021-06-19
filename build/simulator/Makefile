@@ -129,6 +129,54 @@ simulator/fast:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
 .PHONY : simulator/fast
 
+card_history.obj: card_history.cpp.obj
+.PHONY : card_history.obj
+
+# target to build an object file
+card_history.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/card_history.cpp.obj
+.PHONY : card_history.cpp.obj
+
+card_history.i: card_history.cpp.i
+.PHONY : card_history.i
+
+# target to preprocess a source file
+card_history.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/card_history.cpp.i
+.PHONY : card_history.cpp.i
+
+card_history.s: card_history.cpp.s
+.PHONY : card_history.s
+
+# target to generate assembly for a file
+card_history.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/card_history.cpp.s
+.PHONY : card_history.cpp.s
+
+compete_result.obj: compete_result.cpp.obj
+.PHONY : compete_result.obj
+
+# target to build an object file
+compete_result.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj
+.PHONY : compete_result.cpp.obj
+
+compete_result.i: compete_result.cpp.i
+.PHONY : compete_result.i
+
+# target to preprocess a source file
+compete_result.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/compete_result.cpp.i
+.PHONY : compete_result.cpp.i
+
+compete_result.s: compete_result.cpp.s
+.PHONY : compete_result.s
+
+# target to generate assembly for a file
+compete_result.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/compete_result.cpp.s
+.PHONY : compete_result.cpp.s
+
 config.obj: config.cpp.obj
 .PHONY : config.obj
 
@@ -152,30 +200,6 @@ config.s: config.cpp.s
 config.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/config.cpp.s
 .PHONY : config.cpp.s
-
-result.obj: result.cpp.obj
-.PHONY : result.obj
-
-# target to build an object file
-result.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/result.cpp.obj
-.PHONY : result.cpp.obj
-
-result.i: result.cpp.i
-.PHONY : result.i
-
-# target to preprocess a source file
-result.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/result.cpp.i
-.PHONY : result.cpp.i
-
-result.s: result.cpp.s
-.PHONY : result.s
-
-# target to generate assembly for a file
-result.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/result.cpp.s
-.PHONY : result.cpp.s
 
 simulator.obj: simulator.cpp.obj
 .PHONY : simulator.obj
@@ -234,12 +258,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... simulator
+	@echo ... card_history.obj
+	@echo ... card_history.i
+	@echo ... card_history.s
+	@echo ... compete_result.obj
+	@echo ... compete_result.i
+	@echo ... compete_result.s
 	@echo ... config.obj
 	@echo ... config.i
 	@echo ... config.s
-	@echo ... result.obj
-	@echo ... result.i
-	@echo ... result.s
 	@echo ... simulator.obj
 	@echo ... simulator.i
 	@echo ... simulator.s

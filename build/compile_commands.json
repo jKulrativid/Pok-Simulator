@@ -66,8 +66,13 @@
 },
 {
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/simulator",
-  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\simulator.dir\\result.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\simulator\\result.cpp",
-  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/result.cpp"
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\simulator.dir\\compete_result.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\simulator\\compete_result.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/compete_result.cpp"
+},
+{
+  "directory": "C:/Users/user/ProjeXt/pok-simulator/build/simulator",
+  "command": "C:\\Mingw_64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\simulator.dir\\card_history.cpp.obj -c C:\\Users\\user\\ProjeXt\\pok-simulator\\simulation\\src\\simulator\\card_history.cpp",
+  "file": "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/card_history.cpp"
 },
 {
   "directory": "C:/Users/user/ProjeXt/pok-simulator/build/simulator",
