@@ -194,6 +194,19 @@ deckfactory/fast:
 .PHONY : deckfactory/fast
 
 #=============================================================================
+# Target rules for targets named finance
+
+# Build rule for target.
+finance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 finance
+.PHONY : finance
+
+# fast build rule for target.
+finance/fast:
+	$(MAKE) $(MAKESILENT) -f finance\CMakeFiles\finance.dir\build.make finance/CMakeFiles/finance.dir/build
+.PHONY : finance/fast
+
+#=============================================================================
 # Target rules for targets named simulator
 
 # Build rule for target.
@@ -230,6 +243,7 @@ help:
 	@echo ... card
 	@echo ... deck
 	@echo ... deckfactory
+	@echo ... finance
 	@echo ... json
 	@echo ... player
 	@echo ... pok-simulator

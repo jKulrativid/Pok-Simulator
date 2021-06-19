@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/deck/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/base/player/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/deckfactory/CMakeLists.txt"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/finance/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/importlib/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/importlib/json/CMakeLists.txt"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/main/CMakeLists.txt"
@@ -62,6 +63,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "base/deck/CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/player/CMakeFiles/CMakeDirectoryInformation.cmake"
   "deckfactory/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "finance/CMakeFiles/CMakeDirectoryInformation.cmake"
   "simulator/CMakeFiles/CMakeDirectoryInformation.cmake"
   "main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -74,6 +76,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "base/deck/CMakeFiles/deck.dir/DependInfo.cmake"
   "base/player/CMakeFiles/player.dir/DependInfo.cmake"
   "deckfactory/CMakeFiles/deckfactory.dir/DependInfo.cmake"
+  "finance/CMakeFiles/finance.dir/DependInfo.cmake"
   "simulator/CMakeFiles/simulator.dir/DependInfo.cmake"
   "main/CMakeFiles/pok-simulator.dir/DependInfo.cmake"
   )

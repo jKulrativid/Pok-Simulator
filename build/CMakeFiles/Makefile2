@@ -66,6 +66,7 @@ all: importlib/all
 all: reference/all
 all: base/all
 all: deckfactory/all
+all: finance/all
 all: simulator/all
 all: main/all
 .PHONY : all
@@ -75,6 +76,7 @@ preinstall: importlib/preinstall
 preinstall: reference/preinstall
 preinstall: base/preinstall
 preinstall: deckfactory/preinstall
+preinstall: finance/preinstall
 preinstall: simulator/preinstall
 preinstall: main/preinstall
 .PHONY : preinstall
@@ -84,6 +86,7 @@ clean: importlib/clean
 clean: reference/clean
 clean: base/clean
 clean: deckfactory/clean
+clean: finance/clean
 clean: simulator/clean
 clean: main/clean
 .PHONY : clean
@@ -170,6 +173,21 @@ deckfactory/clean: deckfactory/CMakeFiles/deckfactory.dir/clean
 .PHONY : deckfactory/clean
 
 #=============================================================================
+# Directory level rules for directory finance
+
+# Recursive "all" directory target.
+finance/all: finance/CMakeFiles/finance.dir/all
+.PHONY : finance/all
+
+# Recursive "preinstall" directory target.
+finance/preinstall:
+.PHONY : finance/preinstall
+
+# Recursive "clean" directory target.
+finance/clean: finance/CMakeFiles/finance.dir/clean
+.PHONY : finance/clean
+
+#=============================================================================
 # Directory level rules for directory importlib
 
 # Recursive "all" directory target.
@@ -251,7 +269,7 @@ simulator/clean: simulator/CMakeFiles/simulator.dir/clean
 importlib/json/CMakeFiles/json.dir/all:
 	$(MAKE) $(MAKESILENT) -f importlib\json\CMakeFiles\json.dir\build.make importlib/json/CMakeFiles/json.dir/depend
 	$(MAKE) $(MAKESILENT) -f importlib\json\CMakeFiles\json.dir\build.make importlib/json/CMakeFiles/json.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=9,10 "Built target json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=11,12 "Built target json"
 .PHONY : importlib/json/CMakeFiles/json.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +295,7 @@ importlib/json/CMakeFiles/json.dir/clean:
 reference/CMakeFiles/reference.dir/all:
 	$(MAKE) $(MAKESILENT) -f reference\CMakeFiles\reference.dir\build.make reference/CMakeFiles/reference.dir/depend
 	$(MAKE) $(MAKESILENT) -f reference\CMakeFiles\reference.dir\build.make reference/CMakeFiles/reference.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=17,18 "Built target reference"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=19,20 "Built target reference"
 .PHONY : reference/CMakeFiles/reference.dir/all
 
 # Build rule for subdir invocation for target.
@@ -358,7 +376,7 @@ base/player/CMakeFiles/player.dir/all: base/card/CMakeFiles/card.dir/all
 base/player/CMakeFiles/player.dir/all: base/deck/CMakeFiles/deck.dir/all
 	$(MAKE) $(MAKESILENT) -f base\player\CMakeFiles\player.dir\build.make base/player/CMakeFiles/player.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\player\CMakeFiles\player.dir\build.make base/player/CMakeFiles/player.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=11,12,13,14 "Built target player"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=13,14,15,16 "Built target player"
 .PHONY : base/player/CMakeFiles/player.dir/all
 
 # Build rule for subdir invocation for target.
@@ -406,22 +424,51 @@ deckfactory/CMakeFiles/deckfactory.dir/clean:
 .PHONY : deckfactory/CMakeFiles/deckfactory.dir/clean
 
 #=============================================================================
+# Target rules for target finance/CMakeFiles/finance.dir
+
+# All Build rule for target.
+finance/CMakeFiles/finance.dir/all: reference/CMakeFiles/reference.dir/all
+finance/CMakeFiles/finance.dir/all: base/card/CMakeFiles/card.dir/all
+finance/CMakeFiles/finance.dir/all: base/deck/CMakeFiles/deck.dir/all
+finance/CMakeFiles/finance.dir/all: base/player/CMakeFiles/player.dir/all
+	$(MAKE) $(MAKESILENT) -f finance\CMakeFiles\finance.dir\build.make finance/CMakeFiles/finance.dir/depend
+	$(MAKE) $(MAKESILENT) -f finance\CMakeFiles\finance.dir\build.make finance/CMakeFiles/finance.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=9,10 "Built target finance"
+.PHONY : finance/CMakeFiles/finance.dir/all
+
+# Build rule for subdir invocation for target.
+finance/CMakeFiles/finance.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 finance/CMakeFiles/finance.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
+.PHONY : finance/CMakeFiles/finance.dir/rule
+
+# Convenience name for target.
+finance: finance/CMakeFiles/finance.dir/rule
+.PHONY : finance
+
+# clean rule for target.
+finance/CMakeFiles/finance.dir/clean:
+	$(MAKE) $(MAKESILENT) -f finance\CMakeFiles\finance.dir\build.make finance/CMakeFiles/finance.dir/clean
+.PHONY : finance/CMakeFiles/finance.dir/clean
+
+#=============================================================================
 # Target rules for target simulator/CMakeFiles/simulator.dir
 
 # All Build rule for target.
 simulator/CMakeFiles/simulator.dir/all: reference/CMakeFiles/reference.dir/all
 simulator/CMakeFiles/simulator.dir/all: base/card/CMakeFiles/card.dir/all
 simulator/CMakeFiles/simulator.dir/all: base/deck/CMakeFiles/deck.dir/all
-simulator/CMakeFiles/simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 simulator/CMakeFiles/simulator.dir/all: base/player/CMakeFiles/player.dir/all
+simulator/CMakeFiles/simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 	$(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=19,20,21,22 "Built target simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=21,22,23,24,25 "Built target simulator"
 .PHONY : simulator/CMakeFiles/simulator.dir/all
 
 # Build rule for subdir invocation for target.
 simulator/CMakeFiles/simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simulator/CMakeFiles/simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : simulator/CMakeFiles/simulator.dir/rule
@@ -442,17 +489,17 @@ simulator/CMakeFiles/simulator.dir/clean:
 main/CMakeFiles/pok-simulator.dir/all: reference/CMakeFiles/reference.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/card/CMakeFiles/card.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/deck/CMakeFiles/deck.dir/all
-main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
 main/CMakeFiles/pok-simulator.dir/all: simulator/CMakeFiles/simulator.dir/all
+main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=15,16 "Built target pok-simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=17,18 "Built target pok-simulator"
 .PHONY : main/CMakeFiles/pok-simulator.dir/all
 
 # Build rule for subdir invocation for target.
 main/CMakeFiles/pok-simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/pok-simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles 0
 .PHONY : main/CMakeFiles/pok-simulator.dir/rule

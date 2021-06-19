@@ -6,9 +6,6 @@
 #include <player.hpp>
 
 namespace simulator{
-    Dealer* dealer;
-    std::vector<Player*> seat;
-    std::vector<Player*> continue_seat;
     void simulate();
     
 }

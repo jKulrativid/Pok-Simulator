@@ -4,9 +4,20 @@
 #include <iostream>
 #include <map>
 
-namespace result{
-	std::map<std::string, std::map<std::string, long>> recorder = {};
+#include <player.hpp>
 
+namespace compete_result{
+	void add_player(Player* player);
+	void remove_player(Player* player);
+	void reset_player_record(Player* player);
+	void update_result(Player* player, std::string incedent, long amount);
+	void show_result();
+
+}
+
+namespace card_history{
+	void add_player(Player* player);
+	void remove_player(Player* player);
 }
 /*  RECORDER MAP STRUCTURE
 	{

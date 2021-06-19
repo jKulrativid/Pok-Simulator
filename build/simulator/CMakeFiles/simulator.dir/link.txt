@@ -1,2 +1,2 @@
-C:\Mingw_64\mingw64\bin\ar.exe qc libsimulator.a CMakeFiles/simulator.dir/simulator.cpp.obj CMakeFiles/simulator.dir/logic.cpp.obj CMakeFiles/simulator.dir/result.cpp.obj
+C:\Mingw_64\mingw64\bin\ar.exe qc libsimulator.a CMakeFiles/simulator.dir/config.cpp.obj CMakeFiles/simulator.dir/strategy.cpp.obj CMakeFiles/simulator.dir/result.cpp.obj CMakeFiles/simulator.dir/simulator.cpp.obj
 C:\Mingw_64\mingw64\bin\ranlib.exe libsimulator.a

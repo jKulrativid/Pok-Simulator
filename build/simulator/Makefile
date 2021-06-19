@@ -129,29 +129,29 @@ simulator/fast:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/build
 .PHONY : simulator/fast
 
-logic.obj: logic.cpp.obj
-.PHONY : logic.obj
+config.obj: config.cpp.obj
+.PHONY : config.obj
 
 # target to build an object file
-logic.cpp.obj:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/logic.cpp.obj
-.PHONY : logic.cpp.obj
+config.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/config.cpp.obj
+.PHONY : config.cpp.obj
 
-logic.i: logic.cpp.i
-.PHONY : logic.i
+config.i: config.cpp.i
+.PHONY : config.i
 
 # target to preprocess a source file
-logic.cpp.i:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/logic.cpp.i
-.PHONY : logic.cpp.i
+config.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/config.cpp.i
+.PHONY : config.cpp.i
 
-logic.s: logic.cpp.s
-.PHONY : logic.s
+config.s: config.cpp.s
+.PHONY : config.s
 
 # target to generate assembly for a file
-logic.cpp.s:
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/logic.cpp.s
-.PHONY : logic.cpp.s
+config.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/config.cpp.s
+.PHONY : config.cpp.s
 
 result.obj: result.cpp.obj
 .PHONY : result.obj
@@ -201,6 +201,30 @@ simulator.cpp.s:
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/simulator.cpp.s
 .PHONY : simulator.cpp.s
 
+strategy.obj: strategy.cpp.obj
+.PHONY : strategy.obj
+
+# target to build an object file
+strategy.cpp.obj:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/strategy.cpp.obj
+.PHONY : strategy.cpp.obj
+
+strategy.i: strategy.cpp.i
+.PHONY : strategy.i
+
+# target to preprocess a source file
+strategy.cpp.i:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/strategy.cpp.i
+.PHONY : strategy.cpp.i
+
+strategy.s: strategy.cpp.s
+.PHONY : strategy.s
+
+# target to generate assembly for a file
+strategy.cpp.s:
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build && $(MAKE) $(MAKESILENT) -f simulator\CMakeFiles\simulator.dir\build.make simulator/CMakeFiles/simulator.dir/strategy.cpp.s
+.PHONY : strategy.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -210,15 +234,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... simulator
-	@echo ... logic.obj
-	@echo ... logic.i
-	@echo ... logic.s
+	@echo ... config.obj
+	@echo ... config.i
+	@echo ... config.s
 	@echo ... result.obj
 	@echo ... result.i
 	@echo ... result.s
 	@echo ... simulator.obj
 	@echo ... simulator.i
 	@echo ... simulator.s
+	@echo ... strategy.obj
+	@echo ... strategy.i
+	@echo ... strategy.s
 .PHONY : help
 
 
