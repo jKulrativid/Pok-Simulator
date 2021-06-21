@@ -11,6 +11,7 @@ namespace compete_result{
 	void remove_player(Player* player);
 	void reset_player_record(Player* player);
 	void update_result(Player* player, std::string incedent, long amount);
+	void reset();
 	void show_result();
 
 }
@@ -24,13 +25,20 @@ namespace compete_result{
 	}
 */
 
+// TODO write card history in sql
+// suspended (need more developer)
 namespace card_history{
 	void add_player(Player* player);
 	void remove_player(Player* player);
 	void update_player_history(Player* player);
+	void reset();
 	void show_result();
 
 }
-
+/*  std::vector< std::vector< std::string > > 
+	player / round |      1      |      2     |
+	player 1       | KS, 5S, 10D | QH, JS, -- |
+	player 2       | 3S, 6D, 7C  | 4S, 3C, KS |
+*/
 
 #endif

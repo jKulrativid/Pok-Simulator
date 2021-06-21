@@ -39,10 +39,16 @@ void compete_result::update_result(Player* player, std::string incident, long am
 
 }
 
+void compete_result::reset(){
+	recorder = {};
+	return ;
+
+}
+
 void compete_result::show_result(){
 	std::map<std::string, std::map<std::string, long>>::iterator itr;
 	for (itr=recorder.begin(); itr!= recorder.end(); itr++){
-		printf("%s -> win: %ld | draw: %ld | lose: %ld", itr->first, itr->second["win"], itr->second["draw"], itr->second["lose"]);
+		printf("%s -> win: %ld | draw: %ld | lose: %ld\n", itr->first.c_str(), itr->second["win"], itr->second["draw"], itr->second["lose"]);
 	}
 	return ;
 

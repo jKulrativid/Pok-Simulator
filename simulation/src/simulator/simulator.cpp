@@ -7,6 +7,7 @@
 #include "simulator.hpp"
 #include "config.hpp"
 #include "strategy.hpp"
+#include "result.hpp"
 
 Dealer* dealer;
 std::vector<Player*> seat = {};
@@ -24,6 +25,7 @@ void setup_players(){
     for (int i=1; i<=player_amount; i++){
         std::string player_number = std::to_string(i);
         Player* new_player = new Player("Player" + player_number);
+        compete_result::add_player(new_player);
         seat.push_back(new_player);
         
     }
@@ -43,6 +45,7 @@ void setup_dealer_deck(){
 
 void setup_dealer(){
     dealer = new Dealer("Dealer");
+    compete_result::add_player(dealer);
     return ;
 
 }
@@ -74,19 +77,24 @@ void play_round_one(){
         player_pok = player_score >= pok ? true: false;
         if (player_pok && dealer_pok){
             if (player_score > dealer_score){
-                // player_win
+                compete_result::update_result(player, "win", 1);
+                compete_result::update_result(dealer, "lose", 1);
             }
             else if (dealer_score > player_score){
-                // dealer win
+                compete_result::update_result(dealer, "win", 1);
+                compete_result::update_result(player, "lose", 1);
             } else {
-                // draw
+                compete_result::update_result(player, "draw", 1);
+                compete_result::update_result(dealer, "lose", 1);
             }
         }
         else if (player_pok){
-            // TODO player always win here
+            compete_result::update_result(player, "win", 1);
+            compete_result::update_result(dealer, "lose", 1);
         } 
         else if (dealer_pok){
-            // TODO dealer always win here
+            compete_result::update_result(dealer, "win", 1);
+            compete_result::update_result(player, "lose", 1);
         } 
         else{
             player_to_continue_seat(player);
@@ -135,13 +143,16 @@ void play_round_two(){
     for (Player* player: continue_seat){
         player_score = player->get_score();
         if (player_score > dealer_score){
-            // player_win
+            compete_result::update_result(player, "win", 1);
+            compete_result::update_result(dealer, "lose", 1);
         }
         else if (dealer_score < player_score){
-            // dealer win
+            compete_result::update_result(dealer, "win", 1);
+            compete_result::update_result(player, "lose", 1);
         }
         else {
-            // draw
+            compete_result::update_result(dealer, "draw", 1);
+            compete_result::update_result(player, "draw", 1);
         }
     }
     return ;
@@ -195,6 +206,7 @@ void simulator::simulate(){
     for (long i=0; i<round; i++){
         simulate_one_game();
     }
+    compete_result::show_result();
     return ;
     
 }
