@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/logic.cpp" "simulator/CMakeFiles/simulator.dir/logic.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/logic.cpp.obj.d"
-  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/result.cpp" "simulator/CMakeFiles/simulator.dir/result.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/result.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/card_history.cpp" "simulator/CMakeFiles/simulator.dir/card_history.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/card_history.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/compete_result.cpp" "simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/config.cpp" "simulator/CMakeFiles/simulator.dir/config.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/config.cpp.obj.d"
   "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/simulator.cpp" "simulator/CMakeFiles/simulator.dir/simulator.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/simulator.cpp.obj.d"
+  "C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/strategy.cpp" "simulator/CMakeFiles/simulator.dir/strategy.cpp.obj" "gcc" "simulator/CMakeFiles/simulator.dir/strategy.cpp.obj.d"
   )
 
 # Targets to which this target links.

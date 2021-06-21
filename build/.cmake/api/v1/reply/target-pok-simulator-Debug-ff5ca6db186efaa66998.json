@@ -117,12 +117,12 @@
 			"id" : "deck::@51153dfb49ed6736b24c"
 		},
 		{
-			"backtrace" : 5,
-			"id" : "deckfactory::@9089e1ee940b85919b32"
-		},
-		{
 			"backtrace" : 4,
 			"id" : "player::@64513e8001a81810f494"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "deckfactory::@9089e1ee940b85919b32"
 		},
 		{
 			"backtrace" : 6,

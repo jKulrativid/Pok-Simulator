@@ -1,12 +1,14 @@
 add_library(
     simulator
+    config.hpp
+    config.cpp
+    strategy.hpp
+    strategy.cpp
+    result.hpp
+    compete_result.cpp
+    card_history.cpp
     simulator.hpp
     simulator.cpp
-    config.hpp
-    logic.hpp
-    logic.cpp
-    result.hpp
-    result.cpp
 )
 
 target_include_directories(simulator PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
