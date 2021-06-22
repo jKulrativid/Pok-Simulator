@@ -106,19 +106,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "reference::@cd9c8bcc9d98d2d4a4fb"
+			"id" : "card::@bbf7c4131e2feb56dbe2"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "card::@bbf7c4131e2feb56dbe2"
+			"id" : "reference::@cd9c8bcc9d98d2d4a4fb"
 		},
 		{
 			"backtrace" : 3,
 			"id" : "deck::@51153dfb49ed6736b24c"
-		},
-		{
-			"backtrace" : 4,
-			"id" : "player::@64513e8001a81810f494"
 		},
 		{
 			"backtrace" : 5,
@@ -127,6 +123,10 @@
 		{
 			"backtrace" : 6,
 			"id" : "simulator::@f1f3e991e10b5af6b966"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "player::@64513e8001a81810f494"
 		}
 	],
 	"id" : "pok-simulator::@15c4a824ab2728a3f5e7",

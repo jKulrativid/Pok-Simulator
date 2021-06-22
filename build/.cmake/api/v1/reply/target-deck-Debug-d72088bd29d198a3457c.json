@@ -76,11 +76,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "reference::@cd9c8bcc9d98d2d4a4fb"
+			"id" : "card::@bbf7c4131e2feb56dbe2"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "card::@bbf7c4131e2feb56dbe2"
+			"id" : "reference::@cd9c8bcc9d98d2d4a4fb"
 		}
 	],
 	"id" : "deck::@51153dfb49ed6736b24c",
