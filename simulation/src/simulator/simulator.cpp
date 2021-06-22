@@ -85,7 +85,7 @@ void play_round_one(){
                 compete_result::update_result(player, "lose", 1);
             } else {
                 compete_result::update_result(player, "draw", 1);
-                compete_result::update_result(dealer, "lose", 1);
+                compete_result::update_result(dealer, "draw", 1);
             }
         }
         else if (player_pok){
@@ -109,11 +109,6 @@ void play_round_one(){
 void all_player_second_pick(){
     const int card_amount = config::SECOND_PICK_AMOUNT;
     const int pok = config::POK;
-    bool dealer_pok = dealer->get_score() >= pok ? true: false;
-    if (dealer_pok){
-        return ;
-
-    }
     int dealer_score = dealer->get_score();
     int player_score;
     for (Player* player: continue_seat){
@@ -132,12 +127,6 @@ void all_player_second_pick(){
 }
 
 void play_round_two(){
-    const int pok = config::POK;
-    bool dealer_pok = dealer->get_score() >= pok ? true: false;
-    if (dealer_pok){
-        return ;
-       
-    }
     int dealer_score, player_score;
     dealer_score = dealer->get_score();
     for (Player* player: continue_seat){
@@ -146,7 +135,7 @@ void play_round_two(){
             compete_result::update_result(player, "win", 1);
             compete_result::update_result(dealer, "lose", 1);
         }
-        else if (dealer_score < player_score){
+        else if (dealer_score > player_score){
             compete_result::update_result(dealer, "win", 1);
             compete_result::update_result(player, "lose", 1);
         }
@@ -189,12 +178,22 @@ void before_game(){
 
 }
 
+void show_card(){
+    printf("%s's score: %d\n", dealer->get_name().c_str(), dealer->get_score());
+    for (Player* player: seat){
+        printf("%s's score: %d\n", player->get_name().c_str(), player->get_score());
+    }
+    return ;
+
+}
 void simulate_one_game(){
     before_game();
     all_player_first_pick();
     play_round_one();
-    all_player_second_pick();
-    play_round_two();
+    if (dealer->get_score() < config::POK){
+        all_player_second_pick();
+        play_round_two();
+    }
     return ;
     
 }

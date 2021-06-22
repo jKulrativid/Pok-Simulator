@@ -26,7 +26,7 @@ namespace compete_result{
 */
 
 // TODO write card history in sql
-// suspended (need more developer)
+// suspended
 namespace card_history{
 	void add_player(Player* player);
 	void remove_player(Player* player);
