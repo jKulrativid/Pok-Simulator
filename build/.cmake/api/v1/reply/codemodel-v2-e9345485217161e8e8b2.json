@@ -226,21 +226,21 @@
 				{
 					"directoryIndex" : 6,
 					"id" : "deck::@51153dfb49ed6736b24c",
-					"jsonFile" : "target-deck-Debug-d72088bd29d198a3457c.json",
+					"jsonFile" : "target-deck-Debug-0b81a1d3b60e80bb3212.json",
 					"name" : "deck",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "deckfactory::@9089e1ee940b85919b32",
-					"jsonFile" : "target-deckfactory-Debug-5319d7bf64476b1d0abb.json",
+					"jsonFile" : "target-deckfactory-Debug-dee35fa2ce6dbd998065.json",
 					"name" : "deckfactory",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "finance::@cb5059029e056767e58f",
-					"jsonFile" : "target-finance-Debug-5d64f073196f409eda76.json",
+					"jsonFile" : "target-finance-Debug-86cd0b4dc0fac0095202.json",
 					"name" : "finance",
 					"projectIndex" : 0
 				},
@@ -254,14 +254,14 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "player::@64513e8001a81810f494",
-					"jsonFile" : "target-player-Debug-f552739edd1ea0f6b308.json",
+					"jsonFile" : "target-player-Debug-e368ed7d61b533ffc976.json",
 					"name" : "player",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 11,
 					"id" : "pok-simulator::@15c4a824ab2728a3f5e7",
-					"jsonFile" : "target-pok-simulator-Debug-8ff4f070f96c8c0000e1.json",
+					"jsonFile" : "target-pok-simulator-Debug-d063d882b52c4f39daaa.json",
 					"name" : "pok-simulator",
 					"projectIndex" : 0
 				},
@@ -275,7 +275,7 @@
 				{
 					"directoryIndex" : 10,
 					"id" : "simulator::@f1f3e991e10b5af6b966",
-					"jsonFile" : "target-simulator-Debug-c8188037539906e0acdc.json",
+					"jsonFile" : "target-simulator-Debug-bf1dbc6789015f6657df.json",
 					"name" : "simulator",
 					"projectIndex" : 0
 				}

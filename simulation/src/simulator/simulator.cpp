@@ -85,7 +85,7 @@ void play_round_one(){
                 compete_result::update_result(player, "lose", 1);
             } else {
                 compete_result::update_result(player, "draw", 1);
-                compete_result::update_result(dealer, "lose", 1);
+                compete_result::update_result(dealer, "draw", 1);
             }
         }
         else if (player_pok){
@@ -146,7 +146,7 @@ void play_round_two(){
             compete_result::update_result(player, "win", 1);
             compete_result::update_result(dealer, "lose", 1);
         }
-        else if (dealer_score < player_score){
+        else if (dealer_score > player_score){
             compete_result::update_result(dealer, "win", 1);
             compete_result::update_result(player, "lose", 1);
         }
@@ -189,6 +189,14 @@ void before_game(){
 
 }
 
+void show_card(){
+    printf("%s's score: %d\n", dealer->get_name().c_str(), dealer->get_score());
+    for (Player* player: seat){
+        printf("%s's score: %d\n", player->get_name().c_str(), player->get_score());
+    }
+    return ;
+
+}
 void simulate_one_game(){
     before_game();
     all_player_first_pick();
