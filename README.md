@@ -1,4 +1,5 @@
 # Pok-Simulator
+### simulator for pok-deng game
 ## Feature
 ###    - select different player number and round
 ###    - get win-draw-lose stats
