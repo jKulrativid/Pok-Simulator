@@ -5,7 +5,8 @@ add_library(
     strategy.hpp
     strategy.cpp
     result.hpp
-    result.cpp
+    compete_result.cpp
+    card_history.cpp
     simulator.hpp
     simulator.cpp
 )

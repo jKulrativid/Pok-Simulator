@@ -98,26 +98,41 @@ simulator/CMakeFiles/simulator.dir/strategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/strategy.cpp.s"
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\strategy.cpp -o CMakeFiles\simulator.dir\strategy.cpp.s
 
-simulator/CMakeFiles/simulator.dir/result.cpp.obj: simulator/CMakeFiles/simulator.dir/flags.make
-simulator/CMakeFiles/simulator.dir/result.cpp.obj: simulator/CMakeFiles/simulator.dir/includes_CXX.rsp
-simulator/CMakeFiles/simulator.dir/result.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/result.cpp
-simulator/CMakeFiles/simulator.dir/result.cpp.obj: simulator/CMakeFiles/simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object simulator/CMakeFiles/simulator.dir/result.cpp.obj"
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT simulator/CMakeFiles/simulator.dir/result.cpp.obj -MF CMakeFiles\simulator.dir\result.cpp.obj.d -o CMakeFiles\simulator.dir\result.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\result.cpp
+simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj: simulator/CMakeFiles/simulator.dir/flags.make
+simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj: simulator/CMakeFiles/simulator.dir/includes_CXX.rsp
+simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/compete_result.cpp
+simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj: simulator/CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj -MF CMakeFiles\simulator.dir\compete_result.cpp.obj.d -o CMakeFiles\simulator.dir\compete_result.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\compete_result.cpp
 
-simulator/CMakeFiles/simulator.dir/result.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/result.cpp.i"
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\result.cpp > CMakeFiles\simulator.dir\result.cpp.i
+simulator/CMakeFiles/simulator.dir/compete_result.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/compete_result.cpp.i"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\compete_result.cpp > CMakeFiles\simulator.dir\compete_result.cpp.i
 
-simulator/CMakeFiles/simulator.dir/result.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/result.cpp.s"
-	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\result.cpp -o CMakeFiles\simulator.dir\result.cpp.s
+simulator/CMakeFiles/simulator.dir/compete_result.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/compete_result.cpp.s"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\compete_result.cpp -o CMakeFiles\simulator.dir\compete_result.cpp.s
+
+simulator/CMakeFiles/simulator.dir/card_history.cpp.obj: simulator/CMakeFiles/simulator.dir/flags.make
+simulator/CMakeFiles/simulator.dir/card_history.cpp.obj: simulator/CMakeFiles/simulator.dir/includes_CXX.rsp
+simulator/CMakeFiles/simulator.dir/card_history.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/card_history.cpp
+simulator/CMakeFiles/simulator.dir/card_history.cpp.obj: simulator/CMakeFiles/simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object simulator/CMakeFiles/simulator.dir/card_history.cpp.obj"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT simulator/CMakeFiles/simulator.dir/card_history.cpp.obj -MF CMakeFiles\simulator.dir\card_history.cpp.obj.d -o CMakeFiles\simulator.dir\card_history.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\card_history.cpp
+
+simulator/CMakeFiles/simulator.dir/card_history.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/card_history.cpp.i"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\card_history.cpp > CMakeFiles\simulator.dir\card_history.cpp.i
+
+simulator/CMakeFiles/simulator.dir/card_history.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/card_history.cpp.s"
+	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\card_history.cpp -o CMakeFiles\simulator.dir\card_history.cpp.s
 
 simulator/CMakeFiles/simulator.dir/simulator.cpp.obj: simulator/CMakeFiles/simulator.dir/flags.make
 simulator/CMakeFiles/simulator.dir/simulator.cpp.obj: simulator/CMakeFiles/simulator.dir/includes_CXX.rsp
 simulator/CMakeFiles/simulator.dir/simulator.cpp.obj: C:/Users/user/ProjeXt/pok-simulator/simulation/src/simulator/simulator.cpp
 simulator/CMakeFiles/simulator.dir/simulator.cpp.obj: simulator/CMakeFiles/simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object simulator/CMakeFiles/simulator.dir/simulator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object simulator/CMakeFiles/simulator.dir/simulator.cpp.obj"
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && C:\Mingw_64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT simulator/CMakeFiles/simulator.dir/simulator.cpp.obj -MF CMakeFiles\simulator.dir\simulator.cpp.obj.d -o CMakeFiles\simulator.dir\simulator.cpp.obj -c C:\Users\user\ProjeXt\pok-simulator\simulation\src\simulator\simulator.cpp
 
 simulator/CMakeFiles/simulator.dir/simulator.cpp.i: cmake_force
@@ -132,7 +147,8 @@ simulator/CMakeFiles/simulator.dir/simulator.cpp.s: cmake_force
 simulator_OBJECTS = \
 "CMakeFiles/simulator.dir/config.cpp.obj" \
 "CMakeFiles/simulator.dir/strategy.cpp.obj" \
-"CMakeFiles/simulator.dir/result.cpp.obj" \
+"CMakeFiles/simulator.dir/compete_result.cpp.obj" \
+"CMakeFiles/simulator.dir/card_history.cpp.obj" \
 "CMakeFiles/simulator.dir/simulator.cpp.obj"
 
 # External object files for target simulator
@@ -140,11 +156,12 @@ simulator_EXTERNAL_OBJECTS =
 
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/config.cpp.obj
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/strategy.cpp.obj
-simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/result.cpp.obj
+simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/compete_result.cpp.obj
+simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/card_history.cpp.obj
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/simulator.cpp.obj
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/build.make
 simulator/libsimulator.a: simulator/CMakeFiles/simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsimulator.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\ProjeXt\pok-simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsimulator.a"
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && $(CMAKE_COMMAND) -P CMakeFiles\simulator.dir\cmake_clean_target.cmake
 	cd /d C:\Users\user\ProjeXt\pok-simulator\build\simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\simulator.dir\link.txt --verbose=$(VERBOSE)
 

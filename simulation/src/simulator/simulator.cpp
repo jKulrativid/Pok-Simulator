@@ -7,6 +7,7 @@
 #include "simulator.hpp"
 #include "config.hpp"
 #include "strategy.hpp"
+#include "result.hpp"
 
 Dealer* dealer;
 std::vector<Player*> seat = {};
@@ -24,6 +25,7 @@ void setup_players(){
     for (int i=1; i<=player_amount; i++){
         std::string player_number = std::to_string(i);
         Player* new_player = new Player("Player" + player_number);
+        compete_result::add_player(new_player);
         seat.push_back(new_player);
         
     }
@@ -43,6 +45,7 @@ void setup_dealer_deck(){
 
 void setup_dealer(){
     dealer = new Dealer("Dealer");
+    compete_result::add_player(dealer);
     return ;
 
 }
@@ -74,19 +77,24 @@ void play_round_one(){
         player_pok = player_score >= pok ? true: false;
         if (player_pok && dealer_pok){
             if (player_score > dealer_score){
-                // player_win
+                compete_result::update_result(player, "win", 1);
+                compete_result::update_result(dealer, "lose", 1);
             }
             else if (dealer_score > player_score){
-                // dealer win
+                compete_result::update_result(dealer, "win", 1);
+                compete_result::update_result(player, "lose", 1);
             } else {
-                // draw
+                compete_result::update_result(player, "draw", 1);
+                compete_result::update_result(dealer, "draw", 1);
             }
         }
         else if (player_pok){
-            // TODO player always win here
+            compete_result::update_result(player, "win", 1);
+            compete_result::update_result(dealer, "lose", 1);
         } 
         else if (dealer_pok){
-            // TODO dealer always win here
+            compete_result::update_result(dealer, "win", 1);
+            compete_result::update_result(player, "lose", 1);
         } 
         else{
             player_to_continue_seat(player);
@@ -101,11 +109,6 @@ void play_round_one(){
 void all_player_second_pick(){
     const int card_amount = config::SECOND_PICK_AMOUNT;
     const int pok = config::POK;
-    bool dealer_pok = dealer->get_score() >= pok ? true: false;
-    if (dealer_pok){
-        return ;
-
-    }
     int dealer_score = dealer->get_score();
     int player_score;
     for (Player* player: continue_seat){
@@ -124,24 +127,21 @@ void all_player_second_pick(){
 }
 
 void play_round_two(){
-    const int pok = config::POK;
-    bool dealer_pok = dealer->get_score() >= pok ? true: false;
-    if (dealer_pok){
-        return ;
-       
-    }
     int dealer_score, player_score;
     dealer_score = dealer->get_score();
     for (Player* player: continue_seat){
         player_score = player->get_score();
         if (player_score > dealer_score){
-            // player_win
+            compete_result::update_result(player, "win", 1);
+            compete_result::update_result(dealer, "lose", 1);
         }
-        else if (dealer_score < player_score){
-            // dealer win
+        else if (dealer_score > player_score){
+            compete_result::update_result(dealer, "win", 1);
+            compete_result::update_result(player, "lose", 1);
         }
         else {
-            // draw
+            compete_result::update_result(dealer, "draw", 1);
+            compete_result::update_result(player, "draw", 1);
         }
     }
     return ;
@@ -178,12 +178,22 @@ void before_game(){
 
 }
 
+void show_card(){
+    printf("%s's score: %d\n", dealer->get_name().c_str(), dealer->get_score());
+    for (Player* player: seat){
+        printf("%s's score: %d\n", player->get_name().c_str(), player->get_score());
+    }
+    return ;
+
+}
 void simulate_one_game(){
     before_game();
     all_player_first_pick();
     play_round_one();
-    all_player_second_pick();
-    play_round_two();
+    if (dealer->get_score() < config::POK){
+        all_player_second_pick();
+        play_round_two();
+    }
     return ;
     
 }
@@ -195,6 +205,7 @@ void simulator::simulate(){
     for (long i=0; i<round; i++){
         simulate_one_game();
     }
+    compete_result::show_result();
     return ;
     
 }
