@@ -489,8 +489,8 @@ simulator/CMakeFiles/simulator.dir/clean:
 main/CMakeFiles/pok-simulator.dir/all: reference/CMakeFiles/reference.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/card/CMakeFiles/card.dir/all
 main/CMakeFiles/pok-simulator.dir/all: base/deck/CMakeFiles/deck.dir/all
-main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
 main/CMakeFiles/pok-simulator.dir/all: simulator/CMakeFiles/simulator.dir/all
+main/CMakeFiles/pok-simulator.dir/all: base/player/CMakeFiles/player.dir/all
 main/CMakeFiles/pok-simulator.dir/all: deckfactory/CMakeFiles/deckfactory.dir/all
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\pok-simulator.dir\build.make main/CMakeFiles/pok-simulator.dir/build
